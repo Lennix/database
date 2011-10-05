@@ -6,12 +6,13 @@
 . ./mysql_info
 
 # Table prefix
-PFX=
+PFX=wowc
 
 function import ()
 {
-    db=$PFX`sed -ne '/^--.*Database: /{' -e 's/.*Database: //' -e 'p' -e '}' $1`
-    echo -n "Importing $1 into $db ..."
+    file=$1
+    db=$2
+    echo -n "Importing $file into $db ..."
     # Check if database exists
     err=`echo "quit" | mysql$OPTS $db 2>&1`
     if [ $? != 0 ]; then
@@ -30,17 +31,17 @@ function import ()
 }
 
 for x in ./zp_characters/*.sql; do
-    import $x
+    import $x wowc_characters
 done
 
 for x in ./zp_realm/*.sql; do
-    import $x
+    import $x wowc_realmd
 done
 
 for x in ./zp_scripts/*.sql; do
-    import $x
+    import $x wowc_scriptdev
 done
 
 for x in ./zp_world/*.sql; do
-    import $x
+    import $x wowc_world
 done
