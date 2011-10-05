@@ -29,9 +29,9 @@ dump_data wowc_characters zp_characters character_db_version
 #
 # Realm database
 #
-dump_data wowc_realm zp_realm account
-dump_data wowc_realm zp_realm realmd_db_version
-dump_data wowc_realm zp_realm realmlist
+dump_data wowc_realmd zp_realm account
+dump_data wowc_realmd zp_realm realmd_db_version
+dump_data wowc_realmd zp_realm realmlist
 
 #
 # ScriptDev database
@@ -209,10 +209,10 @@ dump_struc wowc_characters zp_characters world
 #
 # Empty realm database tables
 #
-dump_struc wowc_realm zp_realm account_banned
-dump_struc wowc_realm zp_realm ip_banned
-dump_struc wowc_realm zp_realm realmcharacters
-dump_struc wowc_realm zp_realm uptime
+dump_struc wowc_realmd zp_realm account_banned
+dump_struc wowc_realmd zp_realm ip_banned
+dump_struc wowc_realmd zp_realm realmcharacters
+dump_struc wowc_realmd zp_realm uptime
 
 #
 # Empty ScriptDev database tables
