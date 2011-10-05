@@ -7,17 +7,17 @@
 
 function dump_data ()
 {
-    echo -n "Dumping contents of $1:$2 ..."
-    [ ! -d $1 ] && mkdir $1
-    mysqldump$OPTS -Q --skip-dump-date --add-drop-table $1 $2 >$1/$2.sql
+    echo -n "Dumping contents of $1:$3 ..."
+    [ ! -d $2 ] && mkdir $2
+    mysqldump$OPTS -Q --skip-dump-date --add-drop-table $1 $3 >$2/$3.sql
     echo " done"
 }
 
 function dump_struc ()
 {
-    echo -n "Dumping structure of $1:$2 ..."
-    [ ! -d $1 ] && mkdir $1
-    mysqldump$OPTS -Q --skip-dump-date --add-drop-table --no-data $1 $2 >$1/$2.sql
+    echo -n "Dumping structure of $1:$3 ..."
+    [ ! -d $2 ] && mkdir $2
+    mysqldump$OPTS -Q --skip-dump-date --add-drop-table --no-data $1 $3 >$2/$3.sql
     echo " done"
 }
 
@@ -36,10 +36,10 @@ dump_data wowc_realmd zp_realm realmlist
 #
 # ScriptDev database
 #
-dump_data wowc_scripts zp_scripts gossip_texts
-dump_data wowc_scripts zp_scripts script_texts
-dump_data wowc_scripts zp_scripts script_waypoint
-dump_data wowc_scripts zp_scripts sd0_db_version
+dump_data wowc_scriptdev zp_scripts gossip_texts
+dump_data wowc_scriptdev zp_scripts script_texts
+dump_data wowc_scriptdev zp_scripts script_waypoint
+dump_data wowc_scriptdev zp_scripts sd0_db_version
 
 #
 # World database
@@ -217,7 +217,7 @@ dump_struc wowc_realmd zp_realm uptime
 #
 # Empty ScriptDev database tables
 #
-dump_struc wowc_scripts zp_scripts custom_texts
+dump_struc wowc_scriptdev zp_scripts custom_texts
 
 #
 # Empty World database tables
