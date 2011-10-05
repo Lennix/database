@@ -24,209 +24,209 @@ function dump_struc ()
 #
 # Character database
 #
-dump_data zp_characters wowc_character_db_version
+dump_data wowc_characters zp_characters character_db_version
 
 #
-# realm wowc_database
+# Realm database
 #
-dump_data zp_realm wowc_account
-dump_data zp_realm wowc_realmd_db_version
-dump_data zp_realm wowc_realmlist
+dump_data wowc_realm zp_realm account
+dump_data wowc_realm zp_realm realmd_db_version
+dump_data wowc_realm zp_realm realmlist
 
 #
 # ScriptDev database
 #
-dump_data zp_scripts wowc_gossip_texts
-dump_data zp_scripts wowc_script_texts
-dump_data zp_scripts wowc_script_waypoint
-dump_data zp_scripts wowc_sd0_db_version
+dump_data wowc_scripts zp_scripts gossip_texts
+dump_data wowc_scripts zp_scripts script_texts
+dump_data wowc_scripts zp_scripts script_waypoint
+dump_data wowc_scripts zp_scripts sd0_db_version
 
 #
-# world wowc_database
+# World database
 #
-dump_data zp_world wowc_areatrigger_involvedrelation
-dump_data zp_world wowc_areatrigger_tavern
-dump_data zp_world wowc_areatrigger_teleport
-dump_data zp_world wowc_battleground_events
-dump_data zp_world wowc_battleground_template
-dump_data zp_world wowc_battlemaster_entry
-dump_data zp_world wowc_command
-dump_data zp_world wowc_creature
-dump_data zp_world wowc_creature_addon
-dump_data zp_world wowc_creature_ai_scripts
-dump_data zp_world wowc_creature_ai_summons
-dump_data zp_world wowc_creature_ai_texts
-dump_data zp_world wowc_creature_battleground
-dump_data zp_world wowc_creature_equip_template
-dump_data zp_world wowc_creature_equip_template_raw
-dump_data zp_world wowc_creature_involvedrelation
-dump_data zp_world wowc_creature_loot_template
-dump_data zp_world wowc_creature_model_info
-dump_data zp_world wowc_creature_movement
-dump_data zp_world wowc_creature_movement_scripts
-dump_data zp_world wowc_creature_movement_template
-dump_data zp_world wowc_creature_onkill_reputation
-dump_data zp_world wowc_creature_questrelation
-dump_data zp_world wowc_creature_template
-dump_data zp_world wowc_creature_template_addon
-dump_data zp_world wowc_db_script_string
-dump_data zp_world wowc_db_version
-dump_data zp_world wowc_disenchant_loot_template
-dump_data zp_world wowc_event_scripts
-dump_data zp_world wowc_exploration_basexp
-dump_data zp_world wowc_fishing_loot_template
-dump_data zp_world wowc_gameobject
-dump_data zp_world wowc_gameobject_battleground
-dump_data zp_world wowc_gameobject_involvedrelation
-dump_data zp_world wowc_gameobject_loot_template
-dump_data zp_world wowc_gameobject_questrelation
-dump_data zp_world wowc_gameobject_scripts
-dump_data zp_world wowc_gameobject_template
-dump_data zp_world wowc_game_event
-dump_data zp_world wowc_game_event_creature
-dump_data zp_world wowc_game_event_creature_data
-dump_data zp_world wowc_game_event_gameobject
-dump_data zp_world wowc_game_event_mail
-dump_data zp_world wowc_game_event_quest
-dump_data zp_world wowc_game_graveyard_zone
-dump_data zp_world wowc_game_tele
-dump_data zp_world wowc_game_weather
-dump_data zp_world wowc_gossip_menu
-dump_data zp_world wowc_gossip_menu_option
-dump_data zp_world wowc_gossip_scripts
-dump_data zp_world wowc_instance_template
-dump_data zp_world wowc_item_enchantment_template
-dump_data zp_world wowc_item_loot_template
-dump_data zp_world wowc_item_required_target
-dump_data zp_world wowc_item_template
-dump_data zp_world wowc_mail_loot_template
-dump_data zp_world wowc_mangos_string
-dump_data zp_world wowc_npc_gossip
-dump_data zp_world wowc_npc_text
-dump_data zp_world wowc_npc_trainer
-dump_data zp_world wowc_npc_trainer_template
-dump_data zp_world wowc_npc_vendor
-dump_data zp_world wowc_npc_vendor_template
-dump_data zp_world wowc_page_text
-dump_data zp_world wowc_petcreateinfo_spell
-dump_data zp_world wowc_pet_levelstats
-dump_data zp_world wowc_pet_name_generation
-dump_data zp_world wowc_pickpocketing_loot_template
-dump_data zp_world wowc_playercreateinfo
-dump_data zp_world wowc_playercreateinfo_action
-dump_data zp_world wowc_playercreateinfo_item
-dump_data zp_world wowc_playercreateinfo_spell
-dump_data zp_world wowc_player_classlevelstats
-dump_data zp_world wowc_player_levelstats
-dump_data zp_world wowc_player_xp_for_level
-dump_data zp_world wowc_points_of_interest
-dump_data zp_world wowc_pool_creature
-dump_data zp_world wowc_pool_creature_template
-dump_data zp_world wowc_pool_gameobject
-dump_data zp_world wowc_pool_gameobject_template
-dump_data zp_world wowc_pool_pool
-dump_data zp_world wowc_pool_template
-dump_data zp_world wowc_quest_end_scripts
-dump_data zp_world wowc_quest_start_scripts
-dump_data zp_world wowc_quest_template
-dump_data zp_world wowc_reference_loot_template
-dump_data zp_world wowc_reputation_reward_rate
-dump_data zp_world wowc_reputation_spillover_template
-dump_data zp_world wowc_reserved_name
-dump_data zp_world wowc_scripted_areatrigger
-dump_data zp_world wowc_scripted_event_id
-dump_data zp_world wowc_skill_discovery_template
-dump_data zp_world wowc_skill_extra_item_template
-dump_data zp_world wowc_skill_fishing_base_level
-dump_data zp_world wowc_skinning_loot_template
-dump_data zp_world wowc_spell_affect
-dump_data zp_world wowc_spell_area
-dump_data zp_world wowc_spell_bonus_data
-dump_data zp_world wowc_spell_chain
-dump_data zp_world wowc_spell_elixir
-dump_data zp_world wowc_spell_facing
-dump_data zp_world wowc_spell_learn_spell
-dump_data zp_world wowc_spell_pet_auras
-dump_data zp_world wowc_spell_proc_event
-dump_data zp_world wowc_spell_proc_item_enchant
-dump_data zp_world wowc_spell_scripts
-dump_data zp_world wowc_spell_script_target
-dump_data zp_world wowc_spell_target_position
-dump_data zp_world wowc_spell_threat
-dump_data zp_world wowc_transports
-dump_data zp_world wowc_world_template
+dump_data wowc_world zp_world areatrigger_involvedrelation
+dump_data wowc_world zp_world areatrigger_tavern
+dump_data wowc_world zp_world areatrigger_teleport
+dump_data wowc_world zp_world battleground_events
+dump_data wowc_world zp_world battleground_template
+dump_data wowc_world zp_world battlemaster_entry
+dump_data wowc_world zp_world command
+dump_data wowc_world zp_world creature
+dump_data wowc_world zp_world creature_addon
+dump_data wowc_world zp_world creature_ai_scripts
+dump_data wowc_world zp_world creature_ai_summons
+dump_data wowc_world zp_world creature_ai_texts
+dump_data wowc_world zp_world creature_battleground
+dump_data wowc_world zp_world creature_equip_template
+dump_data wowc_world zp_world creature_equip_template_raw
+dump_data wowc_world zp_world creature_involvedrelation
+dump_data wowc_world zp_world creature_loot_template
+dump_data wowc_world zp_world creature_model_info
+dump_data wowc_world zp_world creature_movement
+dump_data wowc_world zp_world creature_movement_scripts
+dump_data wowc_world zp_world creature_movement_template
+dump_data wowc_world zp_world creature_onkill_reputation
+dump_data wowc_world zp_world creature_questrelation
+dump_data wowc_world zp_world creature_template
+dump_data wowc_world zp_world creature_template_addon
+dump_data wowc_world zp_world db_script_string
+dump_data wowc_world zp_world db_version
+dump_data wowc_world zp_world disenchant_loot_template
+dump_data wowc_world zp_world event_scripts
+dump_data wowc_world zp_world exploration_basexp
+dump_data wowc_world zp_world fishing_loot_template
+dump_data wowc_world zp_world gameobject
+dump_data wowc_world zp_world gameobject_battleground
+dump_data wowc_world zp_world gameobject_involvedrelation
+dump_data wowc_world zp_world gameobject_loot_template
+dump_data wowc_world zp_world gameobject_questrelation
+dump_data wowc_world zp_world gameobject_scripts
+dump_data wowc_world zp_world gameobject_template
+dump_data wowc_world zp_world game_event
+dump_data wowc_world zp_world game_event_creature
+dump_data wowc_world zp_world game_event_creature_data
+dump_data wowc_world zp_world game_event_gameobject
+dump_data wowc_world zp_world game_event_mail
+dump_data wowc_world zp_world game_event_quest
+dump_data wowc_world zp_world game_graveyard_zone
+dump_data wowc_world zp_world game_tele
+dump_data wowc_world zp_world game_weather
+dump_data wowc_world zp_world gossip_menu
+dump_data wowc_world zp_world gossip_menu_option
+dump_data wowc_world zp_world gossip_scripts
+dump_data wowc_world zp_world instance_template
+dump_data wowc_world zp_world item_enchantment_template
+dump_data wowc_world zp_world item_loot_template
+dump_data wowc_world zp_world item_required_target
+dump_data wowc_world zp_world item_template
+dump_data wowc_world zp_world mail_loot_template
+dump_data wowc_world zp_world mangos_string
+dump_data wowc_world zp_world npc_gossip
+dump_data wowc_world zp_world npc_text
+dump_data wowc_world zp_world npc_trainer
+dump_data wowc_world zp_world npc_trainer_template
+dump_data wowc_world zp_world npc_vendor
+dump_data wowc_world zp_world npc_vendor_template
+dump_data wowc_world zp_world page_text
+dump_data wowc_world zp_world petcreateinfo_spell
+dump_data wowc_world zp_world pet_levelstats
+dump_data wowc_world zp_world pet_name_generation
+dump_data wowc_world zp_world pickpocketing_loot_template
+dump_data wowc_world zp_world playercreateinfo
+dump_data wowc_world zp_world playercreateinfo_action
+dump_data wowc_world zp_world playercreateinfo_item
+dump_data wowc_world zp_world playercreateinfo_spell
+dump_data wowc_world zp_world player_classlevelstats
+dump_data wowc_world zp_world player_levelstats
+dump_data wowc_world zp_world player_xp_for_level
+dump_data wowc_world zp_world points_of_interest
+dump_data wowc_world zp_world pool_creature
+dump_data wowc_world zp_world pool_creature_template
+dump_data wowc_world zp_world pool_gameobject
+dump_data wowc_world zp_world pool_gameobject_template
+dump_data wowc_world zp_world pool_pool
+dump_data wowc_world zp_world pool_template
+dump_data wowc_world zp_world quest_end_scripts
+dump_data wowc_world zp_world quest_start_scripts
+dump_data wowc_world zp_world quest_template
+dump_data wowc_world zp_world reference_loot_template
+dump_data wowc_world zp_world reputation_reward_rate
+dump_data wowc_world zp_world reputation_spillover_template
+dump_data wowc_world zp_world reserved_name
+dump_data wowc_world zp_world scripted_areatrigger
+dump_data wowc_world zp_world scripted_event_id
+dump_data wowc_world zp_world skill_discovery_template
+dump_data wowc_world zp_world skill_extra_item_template
+dump_data wowc_world zp_world skill_fishing_base_level
+dump_data wowc_world zp_world skinning_loot_template
+dump_data wowc_world zp_world spell_affect
+dump_data wowc_world zp_world spell_area
+dump_data wowc_world zp_world spell_bonus_data
+dump_data wowc_world zp_world spell_chain
+dump_data wowc_world zp_world spell_elixir
+dump_data wowc_world zp_world spell_facing
+dump_data wowc_world zp_world spell_learn_spell
+dump_data wowc_world zp_world spell_pet_auras
+dump_data wowc_world zp_world spell_proc_event
+dump_data wowc_world zp_world spell_proc_item_enchant
+dump_data wowc_world zp_world spell_scripts
+dump_data wowc_world zp_world spell_script_target
+dump_data wowc_world zp_world spell_target_position
+dump_data wowc_world zp_world spell_threat
+dump_data wowc_world zp_world transports
+dump_data wowc_world zp_world world_template
 
 #
 # Empty character database tables
 #
-dump_struc zp_characters wowc_auction
-dump_struc zp_characters wowc_bugreport
-dump_struc zp_characters wowc_characters
-dump_struc zp_characters wowc_character_action
-dump_struc zp_characters wowc_character_aura
-dump_struc zp_characters wowc_character_battleground_data
-dump_struc zp_characters wowc_character_gifts
-dump_struc zp_characters wowc_character_homebind
-dump_struc zp_characters wowc_character_honor_cp
-dump_struc zp_characters wowc_character_instance
-dump_struc zp_characters wowc_character_inventory
-dump_struc zp_characters wowc_character_pet
-dump_struc zp_characters wowc_character_queststatus
-dump_struc zp_characters wowc_character_reputation
-dump_struc zp_characters wowc_character_skills
-dump_struc zp_characters wowc_character_social
-dump_struc zp_characters wowc_character_spell
-dump_struc zp_characters wowc_character_spell_cooldown
-dump_struc zp_characters wowc_character_stats
-dump_struc zp_characters wowc_character_ticket
-dump_struc zp_characters wowc_character_tutorial
-dump_struc zp_characters wowc_corpse
-dump_struc zp_characters wowc_creature_respawn
-dump_struc zp_characters wowc_gameobject_respawn
-dump_struc zp_characters wowc_game_event_status
-dump_struc zp_characters wowc_groups
-dump_struc zp_characters wowc_group_instance
-dump_struc zp_characters wowc_group_member
-dump_struc zp_characters wowc_guild
-dump_struc zp_characters wowc_guild_eventlog
-dump_struc zp_characters wowc_guild_member
-dump_struc zp_characters wowc_guild_rank
-dump_struc zp_characters wowc_instance
-dump_struc zp_characters wowc_instance_reset
-dump_struc zp_characters wowc_item_instance
-dump_struc zp_characters wowc_item_loot
-dump_struc zp_characters wowc_item_text
-dump_struc zp_characters wowc_mail
-dump_struc zp_characters wowc_mail_items
-dump_struc zp_characters wowc_petition
-dump_struc zp_characters wowc_petition_sign
-dump_struc zp_characters wowc_pet_aura
-dump_struc zp_characters wowc_pet_spell
-dump_struc zp_characters wowc_pet_spell_cooldown
-dump_struc zp_characters wowc_saved_variables
-dump_struc zp_characters wowc_world
+dump_struc wowc_characters zp_characters auction
+dump_struc wowc_characters zp_characters bugreport
+dump_struc wowc_characters zp_characters characters
+dump_struc wowc_characters zp_characters character_action
+dump_struc wowc_characters zp_characters character_aura
+dump_struc wowc_characters zp_characters character_battleground_data
+dump_struc wowc_characters zp_characters character_gifts
+dump_struc wowc_characters zp_characters character_homebind
+dump_struc wowc_characters zp_characters character_honor_cp
+dump_struc wowc_characters zp_characters character_instance
+dump_struc wowc_characters zp_characters character_inventory
+dump_struc wowc_characters zp_characters character_pet
+dump_struc wowc_characters zp_characters character_queststatus
+dump_struc wowc_characters zp_characters character_reputation
+dump_struc wowc_characters zp_characters character_skills
+dump_struc wowc_characters zp_characters character_social
+dump_struc wowc_characters zp_characters character_spell
+dump_struc wowc_characters zp_characters character_spell_cooldown
+dump_struc wowc_characters zp_characters character_stats
+dump_struc wowc_characters zp_characters character_ticket
+dump_struc wowc_characters zp_characters character_tutorial
+dump_struc wowc_characters zp_characters corpse
+dump_struc wowc_characters zp_characters creature_respawn
+dump_struc wowc_characters zp_characters gameobject_respawn
+dump_struc wowc_characters zp_characters game_event_status
+dump_struc wowc_characters zp_characters groups
+dump_struc wowc_characters zp_characters group_instance
+dump_struc wowc_characters zp_characters group_member
+dump_struc wowc_characters zp_characters guild
+dump_struc wowc_characters zp_characters guild_eventlog
+dump_struc wowc_characters zp_characters guild_member
+dump_struc wowc_characters zp_characters guild_rank
+dump_struc wowc_characters zp_characters instance
+dump_struc wowc_characters zp_characters instance_reset
+dump_struc wowc_characters zp_characters item_instance
+dump_struc wowc_characters zp_characters item_loot
+dump_struc wowc_characters zp_characters item_text
+dump_struc wowc_characters zp_characters mail
+dump_struc wowc_characters zp_characters mail_items
+dump_struc wowc_characters zp_characters petition
+dump_struc wowc_characters zp_characters petition_sign
+dump_struc wowc_characters zp_characters pet_aura
+dump_struc wowc_characters zp_characters pet_spell
+dump_struc wowc_characters zp_characters pet_spell_cooldown
+dump_struc wowc_characters zp_characters saved_variables
+dump_struc wowc_characters zp_characters world
 
 #
-# Empty realm wowc_database tables
+# Empty realm database tables
 #
-dump_struc zp_realm wowc_account_banned
-dump_struc zp_realm wowc_ip_banned
-dump_struc zp_realm wowc_realmcharacters
-dump_struc zp_realm wowc_uptime
+dump_struc wowc_realm zp_realm account_banned
+dump_struc wowc_realm zp_realm ip_banned
+dump_struc wowc_realm zp_realm realmcharacters
+dump_struc wowc_realm zp_realm uptime
 
 #
 # Empty ScriptDev database tables
 #
-dump_struc zp_scripts wowc_custom_texts
+dump_struc wowc_scripts zp_scripts custom_texts
 
 #
-# Empty world wowc_database tables
+# Empty World database tables
 #
-dump_struc zp_world wowc_locales_creature
-dump_struc zp_world wowc_locales_gameobject
-dump_struc zp_world wowc_locales_gossip_menu_option
-dump_struc zp_world wowc_locales_item
-dump_struc zp_world wowc_locales_npc_text
-dump_struc zp_world wowc_locales_page_text
-dump_struc zp_world wowc_locales_points_of_interest
-dump_struc zp_world wowc_locales_quest
+dump_struc wowc_world zp_world locales_creature
+dump_struc wowc_world zp_world locales_gameobject
+dump_struc wowc_world zp_world locales_gossip_menu_option
+dump_struc wowc_world zp_world locales_item
+dump_struc wowc_world zp_world locales_npc_text
+dump_struc wowc_world zp_world locales_page_text
+dump_struc wowc_world zp_world locales_points_of_interest
+dump_struc wowc_world zp_world locales_quest
