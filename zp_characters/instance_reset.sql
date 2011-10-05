@@ -28,6 +28,16 @@ CREATE TABLE `instance_reset` (
   PRIMARY KEY (`mapid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `instance_reset`
+--
+
+LOCK TABLES `instance_reset` WRITE;
+/*!40000 ALTER TABLE `instance_reset` DISABLE KEYS */;
+INSERT INTO `instance_reset` VALUES (533,1292731200),(531,1292731200),(509,1292731200),(469,1292731200),(409,1292731200),(309,1292731200),(249,1292731200),(229,1292731200);
+/*!40000 ALTER TABLE `instance_reset` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

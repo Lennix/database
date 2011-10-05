@@ -31,6 +31,15 @@ CREATE TABLE `ip_banned` (
   PRIMARY KEY (`ip`,`bandate`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Banned IPs';
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ip_banned`
+--
+
+LOCK TABLES `ip_banned` WRITE;
+/*!40000 ALTER TABLE `ip_banned` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ip_banned` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

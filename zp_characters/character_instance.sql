@@ -30,6 +30,16 @@ CREATE TABLE `character_instance` (
   KEY `instance` (`instance`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `character_instance`
+--
+
+LOCK TABLES `character_instance` WRITE;
+/*!40000 ALTER TABLE `character_instance` DISABLE KEYS */;
+INSERT INTO `character_instance` VALUES (93192,115,0),(2638,2,0),(89858,103,0),(87676,104,0),(66801,102,0),(97708,119,0),(93812,134,0),(96570,155,0),(84475,59,0),(55073,86,0);
+/*!40000 ALTER TABLE `character_instance` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

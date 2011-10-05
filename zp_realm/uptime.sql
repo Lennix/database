@@ -31,6 +31,15 @@ CREATE TABLE `uptime` (
   PRIMARY KEY (`realmid`,`starttime`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Uptime system';
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `uptime`
+--
+
+LOCK TABLES `uptime` WRITE;
+/*!40000 ALTER TABLE `uptime` DISABLE KEYS */;
+/*!40000 ALTER TABLE `uptime` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
