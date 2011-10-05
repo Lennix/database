@@ -5,8 +5,8 @@
 #
 
 # Comment these out if you need no username & password
-USER=zp
-PASS=zpdb
+USER=wow
+PASS=YfTTvyCWDYzXJmh5
 HOST=localhost
 #SOCK=/var/lib/mysql/mysql.sock
 

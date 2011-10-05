@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: zp_world
+-- Host: localhost    Database: wowc_world
 -- ------------------------------------------------------
--- Server version	5.5.16-log
+-- Server version	5.1.49-3
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -35,8 +35,7 @@ CREATE TABLE `db_version` (
 
 LOCK TABLES `db_version` WRITE;
 /*!40000 ALTER TABLE `db_version` DISABLE KEYS */;
-INSERT INTO `db_version` VALUES
-('mangos-zero database version 1.0.0 (development) / \"Happy Holidays\"','mangos-zero Artificial Creature Intelligence Database based on ACID 1.0.2',NULL);
+INSERT INTO `db_version` VALUES ('mangos-zero database version 1.0.0 (development) / \"Happy Holidays\"','mangos-zero Artificial Creature Intelligence Database based on ACID 1.0.2',NULL);
 /*!40000 ALTER TABLE `db_version` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

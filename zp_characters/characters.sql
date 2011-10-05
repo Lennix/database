@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: zp_characters
+-- Host: localhost    Database: wowc_characters
 -- ------------------------------------------------------
--- Server version	5.5.16-log
+-- Server version	5.1.49-3
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -78,6 +78,7 @@ CREATE TABLE `characters` (
   `equipmentCache` longtext,
   `ammoId` int(10) unsigned NOT NULL DEFAULT '0',
   `actionBars` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rates` float NOT NULL DEFAULT '3',
   `deleteInfos_Account` int(11) unsigned DEFAULT NULL,
   `deleteInfos_Name` varchar(12) DEFAULT NULL,
   `deleteDate` bigint(20) DEFAULT NULL,

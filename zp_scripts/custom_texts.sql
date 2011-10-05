@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: zp_scripts
+-- Host: localhost    Database: wowc_scriptdev
 -- ------------------------------------------------------
--- Server version	5.5.16-log
+-- Server version	5.1.49-3
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;

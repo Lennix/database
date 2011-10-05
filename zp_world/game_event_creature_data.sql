@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: zp_world
+-- Host: localhost    Database: wowc_world
 -- ------------------------------------------------------
--- Server version	5.5.16-log
+-- Server version	5.1.49-3
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -40,17 +40,7 @@ CREATE TABLE `game_event_creature_data` (
 
 LOCK TABLES `game_event_creature_data` WRITE;
 /*!40000 ALTER TABLE `game_event_creature_data` DISABLE KEYS */;
-INSERT INTO `game_event_creature_data` VALUES
-(12088,0,0,504,0,0,27),
-(12093,0,0,504,0,0,27),
-(12095,0,0,504,0,0,27),
-(79670,0,0,504,0,0,27),
-(79675,0,0,504,0,0,27),
-(79676,0,0,504,0,0,27),
-(79690,0,0,504,0,0,27),
-(79792,0,0,504,0,0,27),
-(79807,0,0,504,0,0,27),
-(79814,0,0,504,0,0,27);
+INSERT INTO `game_event_creature_data` VALUES (12088,0,0,504,0,0,27),(12093,0,0,504,0,0,27),(12095,0,0,504,0,0,27),(79670,0,0,504,0,0,27),(79675,0,0,504,0,0,27),(79676,0,0,504,0,0,27),(79690,0,0,504,0,0,27),(79792,0,0,504,0,0,27),(79807,0,0,504,0,0,27),(79814,0,0,504,0,0,27);
 /*!40000 ALTER TABLE `game_event_creature_data` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
