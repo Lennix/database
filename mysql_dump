@@ -158,6 +158,7 @@ dump_data wowc_world zp_world locales_points_of_interest
 dump_data wowc_world zp_world locales_quest
 
 # Erstmal nur world und scripts dumpen
+./mysql_cleanup
 exit
 
 #
