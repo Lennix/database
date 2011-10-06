@@ -9,7 +9,7 @@ function dump_data ()
 {
     echo -n "Dumping contents of $1:$3 ..."
     [ ! -d $2 ] && mkdir $2
-    mysqldump$OPTS -e -Q --skip-dump-date --add-drop-table $1 $3 >$2/$3.sql
+    mysqldump$OPTS -Q --skip-dump-date --add-drop-table $1 $3 >$2/$3.sql
     echo " done"
 }
 

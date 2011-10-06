@@ -33,7 +33,8 @@ CREATE TABLE `realmd_db_version` (
 
 LOCK TABLES `realmd_db_version` WRITE;
 /*!40000 ALTER TABLE `realmd_db_version` DISABLE KEYS */;
-INSERT INTO `realmd_db_version` VALUES (NULL);
+INSERT INTO `realmd_db_version` VALUES
+(NULL);
 /*!40000 ALTER TABLE `realmd_db_version` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

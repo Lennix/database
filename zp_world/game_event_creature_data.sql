@@ -40,7 +40,17 @@ CREATE TABLE `game_event_creature_data` (
 
 LOCK TABLES `game_event_creature_data` WRITE;
 /*!40000 ALTER TABLE `game_event_creature_data` DISABLE KEYS */;
-INSERT INTO `game_event_creature_data` VALUES (12088,0,0,504,0,0,27),(12093,0,0,504,0,0,27),(12095,0,0,504,0,0,27),(79670,0,0,504,0,0,27),(79675,0,0,504,0,0,27),(79676,0,0,504,0,0,27),(79690,0,0,504,0,0,27),(79792,0,0,504,0,0,27),(79807,0,0,504,0,0,27),(79814,0,0,504,0,0,27);
+INSERT INTO `game_event_creature_data` VALUES
+(12088,0,0,504,0,0,27),
+(12093,0,0,504,0,0,27),
+(12095,0,0,504,0,0,27),
+(79670,0,0,504,0,0,27),
+(79675,0,0,504,0,0,27),
+(79676,0,0,504,0,0,27),
+(79690,0,0,504,0,0,27),
+(79792,0,0,504,0,0,27),
+(79807,0,0,504,0,0,27),
+(79814,0,0,504,0,0,27);
 /*!40000 ALTER TABLE `game_event_creature_data` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

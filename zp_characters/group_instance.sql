@@ -37,7 +37,10 @@ CREATE TABLE `group_instance` (
 
 LOCK TABLES `group_instance` WRITE;
 /*!40000 ALTER TABLE `group_instance` DISABLE KEYS */;
-INSERT INTO `group_instance` VALUES (96263,150,0),(54783,133,0),(54783,144,0);
+INSERT INTO `group_instance` VALUES
+(96263,150,0),
+(54783,133,0),
+(54783,144,0);
 /*!40000 ALTER TABLE `group_instance` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

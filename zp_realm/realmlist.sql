@@ -44,7 +44,8 @@ CREATE TABLE `realmlist` (
 
 LOCK TABLES `realmlist` WRITE;
 /*!40000 ALTER TABLE `realmlist` DISABLE KEYS */;
-INSERT INTO `realmlist` VALUES (1,'Molten Core WoW Beta','78.47.199.184',8085,1,0,1,0,0.2,'5875 6005 ');
+INSERT INTO `realmlist` VALUES
+(1,'Molten Core WoW Beta','78.47.199.184',8085,1,0,1,0,0.2,'5875 6005 ');
 /*!40000 ALTER TABLE `realmlist` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
