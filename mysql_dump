@@ -22,24 +22,13 @@ function dump_struc ()
 }
 
 #
-# Character database
-#
-dump_data wowc_characters zp_characters character_db_version
-
-#
-# Realm database
-#
-dump_data wowc_realmd zp_realm account
-dump_data wowc_realmd zp_realm realmd_db_version
-dump_data wowc_realmd zp_realm realmlist
-
-#
 # ScriptDev database
 #
 dump_data wowc_scriptdev zp_scripts gossip_texts
 dump_data wowc_scriptdev zp_scripts script_texts
 dump_data wowc_scriptdev zp_scripts script_waypoint
 dump_data wowc_scriptdev zp_scripts sd0_db_version
+dump_data wowc_scriptdev zp_scripts custom_texts
 
 #
 # World database
@@ -157,6 +146,21 @@ dump_data wowc_world zp_world transports
 dump_data wowc_world zp_world world_template
 
 #
+# Dump Locales database tables
+#
+dump_data wowc_world zp_world locales_creature
+dump_data wowc_world zp_world locales_gameobject
+dump_data wowc_world zp_world locales_gossip_menu_option
+dump_data wowc_world zp_world locales_item
+dump_data wowc_world zp_world locales_npc_text
+dump_data wowc_world zp_world locales_page_text
+dump_data wowc_world zp_world locales_points_of_interest
+dump_data wowc_world zp_world locales_quest
+
+# Erstmal nur world und scripts dumpen
+exit
+
+#
 # Empty character database tables
 #
 dump_data wowc_characters zp_characters auction
@@ -215,18 +219,13 @@ dump_data wowc_realmd zp_realm realmcharacters
 dump_data wowc_realmd zp_realm uptime
 
 #
-# Empty ScriptDev database tables
+# Character database
 #
-dump_data wowc_scriptdev zp_scripts custom_texts
+#dump_data wowc_characters zp_characters character_db_version
 
 #
-# Empty World database tables
+# Realm database
 #
-dump_data wowc_world zp_world locales_creature
-dump_data wowc_world zp_world locales_gameobject
-dump_data wowc_world zp_world locales_gossip_menu_option
-dump_data wowc_world zp_world locales_item
-dump_data wowc_world zp_world locales_npc_text
-dump_data wowc_world zp_world locales_page_text
-dump_data wowc_world zp_world locales_points_of_interest
-dump_data wowc_world zp_world locales_quest
+dump_data wowc_realmd zp_realm account
+dump_data wowc_realmd zp_realm realmd_db_version
+dump_data wowc_realmd zp_realm realmlist
