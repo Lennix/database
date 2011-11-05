@@ -949,7 +949,7 @@ INSERT INTO `creature_ai_scripts` VALUES
 (94607,946,9,5,100,0,0,5,0,0,21,1,0,0,0,0,0,0,0,0,0,0,'Frostmane Novice - Start Combat Movement Below 5 Yards'),
 (94608,946,3,3,100,1,100,30,100,100,23,-1,0,0,0,0,0,0,0,0,0,0,'Frostmane Novice - Set Phase 1 when Mana is above 30% (Phase 2)'),
 (94609,946,7,0,100,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,'Frostmane Novice - Set Phase to 0 on Evade'),
-(94701,947,11,0,100,0,0,0,0,0,11,3616,0,0,11,22766,0,0,0,0,0,0,'Rohh the Silent - Cast Poison Proc and Cast Stealth on Spawn'),
+(94701,947,11,0,100,0,0,0,0,0,11,6920,0,0,11,22766,0,0,0,0,0,0,'Rohh the Silent - Cast Poison Proc and Cast Stealth on Spawn'),
 (94801,948,1,0,100,0,0,0,0,0,11,26047,0,0,0,0,0,0,0,0,0,0,'Rotted One - Cast Birth on Spawn'),
 (94802,948,6,0,100,0,0,0,0,0,11,3428,0,3,0,0,0,0,0,0,0,0,'Rotted One - Summon Flesh Eating Worms on Death'),
 (94901,949,0,0,100,1,9800,26600,13000,48400,11,3609,1,32,0,0,0,0,0,0,0,0,'Carrion Recluse - Cast Paralyzing Poison'),
@@ -5918,7 +5918,7 @@ INSERT INTO `creature_ai_scripts` VALUES
 (481001,4810,0,0,100,3,5000,9000,8000,12000,11,8374,1,0,0,0,0,0,0,0,0,0,'Twilight Reaver - Cast Arcing Smash'),
 (481002,4810,2,0,100,2,15,0,0,0,25,0,0,0,1,-47,0,0,0,0,0,0,'Twilight Reaver - Flee at 15% HP'),
 (481101,4811,1,0,100,2,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,'Twilight Aquamancer - Prevent Combat Movement on Spawn'),
-(481102,4811,1,0,100,3,1000,1000,0,0,11,8372,0,1,0,0,0,0,0,0,0,0,'Twilight Aquamancer - Summon Aqua Guardian on Spawn'),
+(481102,4811,1,0,100,3,180000,180000,0,0,11,8372,0,1,0,0,0,0,0,0,0,0,'Twilight Aquamancer - Summon Aqua Guardian on Spawn'),
 (481103,4811,4,0,100,2,0,0,0,0,11,9672,1,0,23,1,0,0,0,0,0,0,'Twilight Aquamancer - Cast Frostbolt and Set Phase 1 on Aggro'),
 (481104,4811,9,13,100,3,0,40,2400,3800,11,9672,1,0,0,0,0,0,0,0,0,0,'Twilight Aquamancer - Cast Frostbolt (Phase 1)'),
 (481105,4811,3,13,100,2,15,0,0,0,21,1,0,0,23,1,0,0,0,0,0,0,'Twilight Aquamancer - Start Combat Movement and Set Phase 2 when Mana is at 15% (Phase 1)'),
@@ -13494,7 +13494,8 @@ INSERT INTO `creature_ai_scripts` VALUES
 (1686101,16861,0,0,90,3,0,0,8000,8000,11,28413,1,0,0,0,0,0,0,0,0,0,'Death Lord - Casts Aura of Agony'),
 (1686102,16861,0,0,95,3,1000,1000,4000,4000,11,15284,1,0,0,0,0,0,0,0,0,0,'Death Lord - Casts Cleave'),
 (1686103,16861,0,0,80,3,3000,3000,5000,5000,11,28412,4,0,0,0,0,0,0,0,0,0,'Death Lord - Casts Death Coil'),
-(1720901,17209,4,0,100,0,0,0,0,0,12,9526,1,30000,12,9526,1,30000,1,-549,0,0,'William Kielar - Summon Enraged Gryphons and Yell on Aggro');
+(1720901,17209,4,0,100,0,0,0,0,0,12,9526,1,30000,12,9526,1,30000,1,-549,0,0,'William Kielar - Summon Enraged Gryphons and Yell on Aggro'),
+(345702,3457,1,0,100,0,1000,1000,0,0,11,6920,0,0,0,0,0,0,0,0,0,0,'Razormane Stalker - Cast Stealth on Spawn');
 /*!40000 ALTER TABLE `creature_ai_scripts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
