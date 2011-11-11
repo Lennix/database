@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_scriptdev
+-- Host: localhost    Database: wowc_testworld
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -34,7 +34,7 @@ CREATE TABLE `sd0_db_version` (
 LOCK TABLES `sd0_db_version` WRITE;
 /*!40000 ALTER TABLE `sd0_db_version` DISABLE KEYS */;
 INSERT INTO `sd0_db_version` VALUES
-(' Vanilla-WoW ScriptDev based on ScriptDevZero ');
+('ArchaicaScripts (for MaNGOSZero 1744+)');
 /*!40000 ALTER TABLE `sd0_db_version` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_world
+-- Host: localhost    Database: wowc_testworld
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -26,8 +26,8 @@ CREATE TABLE `game_event` (
   `entry` mediumint(8) unsigned NOT NULL COMMENT 'Entry of the game event',
   `start_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT 'Absolute start date, the event will never start before',
   `end_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT 'Absolute end date, the event will never start afler',
-  `occurence` bigint(20) unsigned NOT NULL DEFAULT '86400' COMMENT 'Delay in minutes between occurences of the event',
-  `length` bigint(20) unsigned NOT NULL DEFAULT '43200' COMMENT 'Length in minutes of the event',
+  `occurence` bigint(20) unsigned NOT NULL DEFAULT '5184000' COMMENT 'Delay in minutes between occurences of the event',
+  `length` bigint(20) unsigned NOT NULL DEFAULT '2592000' COMMENT 'Length in minutes of the event',
   `holiday` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'Client side holiday id',
   `description` varchar(255) DEFAULT NULL COMMENT 'Description of the event displayed in console',
   PRIMARY KEY (`entry`)
@@ -41,36 +41,36 @@ CREATE TABLE `game_event` (
 LOCK TABLES `game_event` WRITE;
 /*!40000 ALTER TABLE `game_event` DISABLE KEYS */;
 INSERT INTO `game_event` VALUES
-(1,'2007-06-20 20:00:00','2020-12-31 22:59:59',525600,20160,341,'Midsummer Fire Festival'),
-(2,'2006-12-14 23:00:00','2020-12-31 22:59:59',525600,27360,141,'Feast of Winter Veil'),
-(4,'2006-02-08 23:00:00','2020-12-31 22:59:59',96480,10080,374,'Darkmoon Faire (Elwynn)'),
-(5,'2006-01-07 23:00:00','2020-12-31 22:59:59',96480,10080,374,'Darkmoon Faire (Mulgore)'),
-(6,'2007-12-31 21:00:00','2020-12-31 22:59:59',525600,120,0,'New Year\'s Eve'),
-(7,'2006-02-12 22:00:00','2020-12-31 22:59:59',525600,28800,327,'Lunar Festival'),
-(8,'2006-02-10 22:00:00','2020-12-31 22:59:59',525600,5760,335,'Love is in the Air'),
-(9,'2006-04-16 20:00:00','2020-12-31 22:59:59',524160,7200,181,'Noblegarden'),
-(10,'2007-05-01 20:00:00','2020-12-31 22:59:59',525600,11520,201,'Children\'s Week '),
-(12,'2006-10-18 20:00:00','2020-12-31 22:59:59',525600,21600,324,'Hallow\'s End'),
-(13,'0000-00-00 00:00:00','2020-12-31 22:59:59',525600,1,0,'Elemental Invasions'),
-(14,'2006-01-02 05:00:00','2020-12-31 22:59:59',10080,240,0,'Fishing Extravaganza Announce'),
-(15,'2006-01-01 11:00:00','2020-12-31 22:59:59',10080,120,301,'Fishing Extravaganza'),
-(16,'2005-12-31 23:00:00','2020-12-31 22:59:59',180,120,0,'Gurubashi Arena Booty Run'),
-(17,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'Scourge Invasion'),
-(18,'2006-01-19 23:00:00','2020-12-31 22:59:59',40320,6240,283,'Call to Arms: Alterac Valley!'),
-(19,'2006-01-26 23:00:00','2020-12-31 22:59:59',40320,6240,284,'Call to Arms: Warsong Gulch!'),
-(20,'2006-01-05 23:00:00','2020-12-31 22:59:59',40320,6240,285,'Call to Arms: Arathi Basin!'),
+(1,'2020-06-20 22:00:00','2020-12-30 22:00:00',525600,20160,0,'Midsummer Fire Festival'),
+(2,'2010-12-13 23:00:00','2020-12-30 22:00:00',525600,24480,0,'Winter Veil'),
+(4,'2010-09-05 05:00:00','2020-12-30 22:00:00',86400,10020,0,'Darkmoon Faire (Elwynn Forest)'),
+(5,'2010-10-03 05:00:00','2020-12-30 22:00:00',86400,10020,0,'Darkmoon Faire (Mulgore)'),
+(6,'2020-12-31 22:00:00','2020-12-30 22:00:00',525600,120,0,'New Year\'s Eve'),
+(7,'2020-02-04 23:00:00','2020-12-30 22:00:00',525600,27360,0,'Lunar Festival'),
+(8,'2008-02-09 22:00:00','2020-12-30 22:00:00',525600,7200,0,'Love is in the Air'),
+(9,'2020-04-08 22:00:00','2020-12-30 22:00:00',524160,1440,0,'Noblegarden'),
+(10,'2020-05-21 22:00:00','2020-12-30 22:00:00',525600,10080,0,'Children\'s Week '),
+(11,'2020-09-23 22:00:00','2020-12-30 22:00:00',525600,10080,0,'Harvest Festival'),
+(12,'2020-10-17 22:00:00','2020-12-30 22:00:00',525600,20160,0,'Hallow\'s End'),
 (22,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'AQ War Effort'),
-(23,'2006-02-05 23:00:00','2020-12-31 22:59:59',131040,4320,374,'Darkmoon Faire Building (Elwynn)'),
-(27,'2008-01-01 19:00:00','2020-12-31 22:59:59',1440,720,0,'Nights'),
-(29,'2006-01-23 23:00:00','2020-12-31 22:59:59',86400,21600,0,'Edge of Madness, Gri\'lek'),
-(30,'2006-01-06 23:00:00','2020-12-31 22:59:59',86400,21600,0,'Edge of Madness, Hazza\'rah'),
-(31,'2006-01-20 23:00:00','2020-12-31 22:59:59',86400,21600,0,'Edge of Madness, Renataki'),
-(32,'2006-01-04 23:00:00','2020-12-31 22:59:59',86400,21600,0,'Edge of Madness, Wushoolay'),
-(33,'2006-10-05 22:00:00','2020-10-05 22:00:00',525600,10080,321,'Harvest Festival'),
-(34,'2006-01-04 14:00:00','2020-12-30 23:00:00',10080,180,0,'Fishing Extravaganza Turn-in'),
-(35,'2010-09-23 01:00:00','2020-12-30 23:00:00',525600,256320,0,'Winter Season Fishing'),
-(36,'2010-03-21 01:00:00','2020-12-30 23:00:00',525600,269280,0,'Summer Season Fishing'),
-(61,'2010-12-31 23:58:00','2020-12-30 23:00:00',30,10,0,'Stormwind City - Stockades Jail Break');
+(17,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'Scourge Invasion'),
+(13,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'Elemental Invasions'),
+(14,'2020-08-05 06:00:00','2020-12-30 22:00:00',10080,300,0,'Fishing Extravaganza Announce'),
+(16,'2007-08-04 20:00:00','2020-12-30 22:00:00',180,120,0,'Gurubashi Arena Booty Run'),
+(15,'2020-08-05 12:00:00','2020-12-30 22:00:00',10080,120,0,'Fishing Extravaganza'),
+(18,'2020-08-02 21:00:00','2020-12-30 22:00:00',40320,6240,0,'Call to Arms: Alterac Valley!'),
+(19,'2020-08-09 21:00:00','2020-12-30 22:00:00',40320,6240,0,'Call to Arms: Warsong Gulch!'),
+(20,'2020-08-16 21:00:00','2020-12-30 22:00:00',40320,6240,0,'Call to Arms: Arathi Basin!'),
+(23,'2007-09-01 03:00:00','2020-12-30 22:00:00',131040,4320,0,'Darkmoon Faire Building (Elwynn Forest)'),
+(24,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'Unknown Holiday PVP Event'),
+(25,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'Call to Arms: Unknown Event'),
+(26,'2020-10-02 22:00:00','2020-12-30 22:00:00',525600,20160,0,'Brewfest'),
+(27,'2020-01-01 20:00:00','2020-12-30 22:00:00',1440,720,0,'Nights'),
+(29,'2008-01-29 00:00:00','2020-12-30 22:00:00',80640,20160,0,'Edge of Madness, Gri\'lek'),
+(30,'2008-02-12 00:00:00','2020-12-30 22:00:00',80640,20160,0,'Edge of Madness, Hazza\'rah'),
+(31,'2008-01-01 00:00:00','2020-12-30 22:00:00',80640,20160,0,'Edge of Madness, Renataki'),
+(32,'2008-01-15 00:00:00','2020-12-30 22:00:00',80640,20160,0,'Edge of Madness, Wushoolay'),
+(28,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,2880,0,'Noblegarden');
 /*!40000 ALTER TABLE `game_event` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

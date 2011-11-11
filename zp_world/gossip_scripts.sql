@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_world
+-- Host: localhost    Database: wowc_testworld
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -50,9 +50,8 @@ CREATE TABLE `gossip_scripts` (
 LOCK TABLES `gossip_scripts` WRITE;
 /*!40000 ALTER TABLE `gossip_scripts` DISABLE KEYS */;
 INSERT INTO `gossip_scripts` VALUES
-(125,1,22,21,0,0,0,5,0,0,0,0,0,0,0,0,'astor change faction'),
-(125,2,26,0,0,0,0,0,0,0,0,0,0,0,0,0,'astor attack start'),
-(5750,0,15,25139,2,0,0,0,0,0,0,0,0,0,0,0,'cast teleport molten core');
+(2001101,0,15,9977,0,0,0,0,0,0,0,0,0,0,0,0,'cast Conjure E.C.A.C'),
+(2001102,0,15,9949,0,0,0,0,0,0,0,0,0,0,0,0,'cast Thieves\' Tool Rack Conjure');
 /*!40000 ALTER TABLE `gossip_scripts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

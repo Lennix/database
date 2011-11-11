@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_world
+-- Host: localhost    Database: wowc_testworld
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -25,7 +25,7 @@ DROP TABLE IF EXISTS `db_version`;
 CREATE TABLE `db_version` (
   `version` varchar(120) DEFAULT NULL,
   `creature_ai_version` varchar(120) DEFAULT NULL,
-  `required_z1807_xxxxx_01_mangos_spell_proc_event` bit(1) DEFAULT NULL
+  `required_z1824_xxxxx_01_mangos_spell_affect_event` bit(1) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Used DB version notes';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -36,7 +36,7 @@ CREATE TABLE `db_version` (
 LOCK TABLES `db_version` WRITE;
 /*!40000 ALTER TABLE `db_version` DISABLE KEYS */;
 INSERT INTO `db_version` VALUES
-('mangos-zero database version 1.0.0 (development) / \"Happy Holidays\"','mangos-zero Artificial Creature Intelligence Database based on ACID 1.0.2',NULL);
+('ZPDB 0.2.0 (003) + Archaica updatepack 901_1000 (10)','ACID 1.0.2 + Archaica fixes',NULL);
 /*!40000 ALTER TABLE `db_version` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_world
+-- Host: localhost    Database: wowc_testworld
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -36,33 +36,33 @@ CREATE TABLE `areatrigger_involvedrelation` (
 LOCK TABLES `areatrigger_involvedrelation` WRITE;
 /*!40000 ALTER TABLE `areatrigger_involvedrelation` DISABLE KEYS */;
 INSERT INTO `areatrigger_involvedrelation` VALUES
-(78,155),
-(87,76),
-(88,62),
-(98,201),
-(169,287),
-(175,455),
-(178,503),
-(196,578),
-(216,870),
-(225,944),
-(230,954),
-(231,984),
-(232,984),
-(235,984),
-(246,1149),
-(302,1265),
-(362,1448),
-(482,1699),
-(522,1719),
-(1205,2989),
-(1388,3505),
-(2327,4842),
-(2486,4811),
-(2926,25),
 (2946,6421),
 (3367,6025),
-(3986,8286);
+(2327,4842),
+(2486,4811),
+(1205,2989),
+(482,1699),
+(362,1448),
+(302,1265),
+(231,984),
+(230,954),
+(225,944),
+(216,870),
+(196,578),
+(169,287),
+(98,201),
+(78,155),
+(178,503),
+(87,76),
+(88,62),
+(3986,8286),
+(1388,3505),
+(175,455),
+(246,1149),
+(232,984),
+(235,984),
+(2926,25),
+(522,1719);
 /*!40000 ALTER TABLE `areatrigger_involvedrelation` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

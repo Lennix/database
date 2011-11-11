@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_world
+-- Host: localhost    Database: wowc_testworld
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -31,7 +31,7 @@ CREATE TABLE `creature_ai_summons` (
   `spawntimesecs` int(11) unsigned NOT NULL DEFAULT '120',
   `comment` varchar(255) NOT NULL DEFAULT '' COMMENT 'Summon Comment',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='EventAI Summoning Locations';
+) ENGINE=MyISAM AUTO_INCREMENT=1002 DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='EventAI Summoning Locations';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,8 +42,6 @@ LOCK TABLES `creature_ai_summons` WRITE;
 /*!40000 ALTER TABLE `creature_ai_summons` DISABLE KEYS */;
 INSERT INTO `creature_ai_summons` VALUES
 (1,8074.84,-3840,690.061,4.6,180000,'10727'),
-(2,-472.02,105.823,-94.6299,0.0301925,300000,'5721'),
-(3,-467.099,85.2944,-94.7318,3.95326,300000,'5720'),
 (4,-9967.55,-135.956,24.5909,0.170326,180000,'6846'),
 (5,-9958.49,-140.526,24.2409,4.0015,180000,'6846'),
 (6,-9964.59,-140.567,24.5105,0.741307,180000,'6846'),
@@ -52,11 +50,8 @@ INSERT INTO `creature_ai_summons` VALUES
 (9,274.415,-416.159,-119.962,4.86179,18000000,'11460'),
 (10,272.422,-418.679,-119.962,4.76048,18000000,'11460'),
 (11,268.91,-417.027,-119.962,5.03693,18000000,'11460'),
-(12,1809.49,750.594,18.0475,4.56791,18000000,'8138'),
-(13,1824.58,747.281,21.1486,3.70162,18000000,'8138'),
-(14,1796.56,758.122,14.7124,5.03836,18000000,'8138'),
-(15,1783.9,745.005,16.111,6.03896,18000000,'8138'),
-(16,33.7585,491.548,-23.2803,3.15989,120000,'14566');
+(1001,-441.11,-75.2876,-90.3401,3.11955,180000,'5710'),
+(1000,-441.485,-85.2876,-90.8275,3.11955,180000,'5710');
 /*!40000 ALTER TABLE `creature_ai_summons` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

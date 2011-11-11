@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_world
+-- Host: localhost    Database: wowc_testworld
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -36,24 +36,12 @@ CREATE TABLE `scripted_event_id` (
 LOCK TABLES `scripted_event_id` WRITE;
 /*!40000 ALTER TABLE `scripted_event_id` DISABLE KEYS */;
 INSERT INTO `scripted_event_id` VALUES
-(2228,'event_spell_altar_boss_aggro'),
-(2268,'event_spell_altar_boss_aggro'),
-(2488,'event_go_zulfarrak_gong'),
-(3094,'event_antalarion_statue_activation'),
-(3095,'event_antalarion_statue_activation'),
-(3097,'event_antalarion_statue_activation'),
-(3098,'event_antalarion_statue_activation'),
-(3099,'event_antalarion_statue_activation'),
-(3100,'event_antalarion_statue_activation'),
-(4884,'event_spell_altar_emberseer'),
-(5618,'event_spell_gandling_shadow_portal'),
-(5619,'event_spell_gandling_shadow_portal'),
-(5620,'event_spell_gandling_shadow_portal'),
-(5621,'event_spell_gandling_shadow_portal'),
-(5622,'event_spell_gandling_shadow_portal'),
-(5623,'event_spell_gandling_shadow_portal'),
+(4884,'event_spell_emberseer_start'),
 (8328,'npc_kroshius'),
-(8502,'event_avatar_of_hakkar');
+(8436,'event_spell_place_scryer'),
+(8502,'event_spell_awaken_the_soulflayer'),
+(2228,'event_spell_altar_boss_aggro'),
+(2268,'event_spell_altar_boss_aggro');
 /*!40000 ALTER TABLE `scripted_event_id` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

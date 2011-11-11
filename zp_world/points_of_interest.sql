@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_world
+-- Host: localhost    Database: wowc_testworld
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -76,7 +76,6 @@ INSERT INTO `points_of_interest` VALUES
 (39,-8714,342.761,6,99,0,'Stormwind Barracks'),
 (40,-8975,778.865,6,99,0,'Alchemy Needs'),
 (41,-8433,610.413,6,99,0,'Therum Deepforge'),
-(42,-8641,423.502,6,99,0,'Pig and Whistle Tavern'),
 (43,-8838,782.35,6,99,0,'Lucan Cordell'),
 (44,-8348,640.412,6,99,0,'Lilliam Sparkspindle'),
 (45,-8515,804.505,6,99,0,'Shaina Fuller'),
@@ -155,14 +154,13 @@ INSERT INTO `points_of_interest` VALUES
 (122,9773,875.884,6,99,0,'Malorne Bladeleaf'),
 (123,10152,1681.47,6,99,0,'Nadyia Maneweaver'),
 (124,10135,1673.18,6,99,0,'Radnaal Maneweaver'),
-(125,10152,1681.47,6,99,0,'Nadyia Maneweaver'),
 (176,1631,-4375.33,6,99,0,'Bank of Orgrimmar'),
 (177,1676,-4332.72,6,99,0,'The Sky Tower'),
 (178,1576,-4294.75,6,99,0,'Horde Embassy'),
 (179,1644,-4447.28,6,99,0,'Orgrimmar Inn'),
 (180,1622,-4388.8,6,99,0,'Orgrimmar Mailbox'),
 (181,1679,-4450.11,6,99,0,'Orgrimmar Auction House'),
-(182,1337,-4632.7,6,99,0,'Orgrimmar Zeppelin Tower'),
+(182,1337,-4632.7,6,99,0,'Orgrimmar Eastern Zeppelin Tower'),
 (184,2092,-4823.95,6,99,0,'Sayoc & Hanashi'),
 (185,2133,-4663.93,6,99,0,'Xon\'cha'),
 (186,1633,-4249.37,6,99,0,'Hall of Legends'),
@@ -214,7 +212,6 @@ INSERT INTO `points_of_interest` VALUES
 (285,2161,658.172,6,99,0,'Bowen Brisboise'),
 (286,2031,71.8599,6,99,0,'Rand Rhobart'),
 (287,2027,80.1105,6,99,0,'Shelene Rhobart'),
-(288,2270,329.97,6,99,0,'Faruza'),
 (289,2299,1.16547,6,99,0,'Clyde Kellen'),
 (290,2247,242.789,6,99,0,'Nurse Neela'),
 (291,2280,244.714,6,99,0,'Vance Undergloom'),
@@ -226,7 +223,6 @@ INSERT INTO `points_of_interest` VALUES
 (297,2264,248.158,6,99,0,'Dark Cleric Beryl'),
 (298,2259,235.865,6,99,0,'Cain Firesong'),
 (299,2266,242.754,6,99,0,'Gallows\' End Tavern'),
-(301,-1156,66.8664,6,99,0,'Thunder Bluff Armorers'),
 (302,-1148,51.1842,6,99,0,'Mooranta'),
 (303,-1249,155.028,6,99,0,'Stonehoof Geology'),
 (304,-1156,66.8664,6,99,0,'Thunder Bluff Armorers'),
@@ -264,7 +260,6 @@ INSERT INTO `points_of_interest` VALUES
 (339,-5529,-660.912,6,99,0,'Yarr Hammerstone'),
 (363,-9060.71,149.236,6,99,0,'Herbalist Pomeroy'),
 (364,9659.13,2524.89,6,99,0,'Temple of the Moon'),
-(418,8680.7,-6327.05,6,583,0,'Saltheril\'s Haven, Tailor'),
 (419,-4799.56,-1250.24,6,99,0,'Springspindle\'s Gadgets'),
 (420,2114.84,-4625.32,6,99,0,'Orgrimmar Hunter\'s Hall'),
 (421,1451.26,-4223.33,6,99,0,'Darkbriar Lodge'),
@@ -284,7 +279,10 @@ INSERT INTO `points_of_interest` VALUES
 (435,2029.79,-4704.08,6,99,0,'Red Canyon Mining'),
 (436,1852.83,-4562.32,6,99,0,'Kodohide Leatherworkers'),
 (437,1802.66,-4560.66,6,99,0,'Magar\'s Cloth Goods'),
-(440,9757.18,2430.17,6,99,0,'Darnassus Herbalism Trainer');
+(438,9664.74,2528.29,6,99,0,'Darnassus Mage Trainer'),
+(439,9664.95,2529.93,6,99,0,'Darnassus Paladin Trainer'),
+(440,9757.18,2430.17,6,99,0,'Darnassus Herbalism Trainer'),
+(442,-3725.4,-11688.4,6,99,0,'Arena Battlemaster Exodar');
 /*!40000 ALTER TABLE `points_of_interest` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_world
+-- Host: localhost    Database: wowc_testworld
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -58,11 +58,11 @@ INSERT INTO `item_required_target` VALUES
 (9621,2,5358),
 (9621,2,14604),
 (9621,2,14640),
+(11914,2,7086),
+(11948,2,7092),
 (12647,1,4678),
 (12647,1,4681),
 (12647,1,4685),
-(15826,1,12296),
-(15826,1,12298),
 (15908,1,1196),
 (15911,1,1126),
 (15913,1,1201),

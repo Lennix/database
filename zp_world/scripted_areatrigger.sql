@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_world
+-- Host: localhost    Database: wowc_testworld
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -37,38 +37,31 @@ LOCK TABLES `scripted_areatrigger` WRITE;
 /*!40000 ALTER TABLE `scripted_areatrigger` DISABLE KEYS */;
 INSERT INTO `scripted_areatrigger` VALUES
 (522,'at_twiggy_flathead'),
-(1447,'at_zulfarrak'),
 (1526,'at_ring_of_law'),
-(1726,'at_scent_larkorwi'),
-(1727,'at_scent_larkorwi'),
-(1728,'at_scent_larkorwi'),
-(1729,'at_scent_larkorwi'),
-(1730,'at_scent_larkorwi'),
-(1731,'at_scent_larkorwi'),
-(1732,'at_scent_larkorwi'),
-(1733,'at_scent_larkorwi'),
-(1734,'at_scent_larkorwi'),
-(1735,'at_scent_larkorwi'),
-(1736,'at_scent_larkorwi'),
-(1737,'at_scent_larkorwi'),
-(1738,'at_scent_larkorwi'),
-(1739,'at_scent_larkorwi'),
-(1740,'at_scent_larkorwi'),
-(2026,'at_blackrock_spire'),
-(2046,'at_blackrock_spire'),
 (3066,'at_ravenholdt'),
-(3546,'at_childrens_week_spot'),
-(3547,'at_childrens_week_spot'),
-(3548,'at_childrens_week_spot'),
-(3549,'at_childrens_week_spot'),
-(3550,'at_childrens_week_spot'),
-(3552,'at_childrens_week_spot'),
+(4112,'at_naxxramas'),
+(2527,'at_pvp_barracks'),
+(2532,'at_pvp_barracks'),
+(1946,'at_backrock_spire'),
+(1986,'at_backrock_spire'),
+(1987,'at_backrock_spire'),
+(2026,'at_backrock_spire'),
+(2046,'at_backrock_spire'),
 (3626,'at_vaelastrasz'),
+(3587,'at_irontree_woods'),
+(1105,'at_clockwerk_run'),
+(4089,'at_sm_cathedral_entrance'),
+(2209,'at_bastion'),
+(2210,'at_bastion'),
+(4016,'at_shade_of_eranikus'),
+(822,'at_map_chamber'),
+(1736,'at_larkorwi_eggs'),
+(1740,'at_larkorwi_eggs'),
+(962,'at_zumrah'),
+(3956,'at_zulgurub'),
 (3958,'at_zulgurub'),
 (3960,'at_zulgurub'),
-(4016,'at_shade_of_eranikus'),
-(4112,'at_naxxramas'),
-(4113,'at_naxxramas');
+(3964,'at_zulgurub');
 /*!40000 ALTER TABLE `scripted_areatrigger` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

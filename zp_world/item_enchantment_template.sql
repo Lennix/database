@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_world
+-- Host: localhost    Database: wowc_testworld
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -22226,8 +22226,6 @@ INSERT INTO `item_enchantment_template` VALUES
 (3548,1770,2.32),
 (3548,1771,2.32),
 (3548,1851,0.1),
-(4313,15,50),
-(4313,25,50),
 (4990,173,3.6),
 (4990,188,6.4),
 (4990,193,4),
@@ -27928,7 +27926,9 @@ INSERT INTO `item_enchantment_template` VALUES
 (8675,2150,11.98),
 (8675,2151,11.98),
 (8675,2153,6.93),
-(8675,2154,11.98);
+(8675,2154,11.98),
+(4313,15,50),
+(4313,25,50);
 /*!40000 ALTER TABLE `item_enchantment_template` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
