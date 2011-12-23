@@ -132,7 +132,7 @@ INSERT INTO `areatrigger_teleport` VALUES
 (3529,'The Molten Core Window(Lava) Entrance',50,0,0,7487,'',409,1096,-467,-104.6,3.64),
 (3726,'Blackwing Lair - Blackrock Mountain - Eastern Kingdoms',60,0,0,8801,'Instance: Blackwing Lair is closed!',469,-7673.03,-1106.08,396.651,0.703353),
 (3728,'Blackrock Spire, Unknown',45,0,0,0,NULL,229,174.74,-474.77,116.84,3.2),
-(3928,'Zul\'Gurub Entrance ',50,0,0,0,NULL,309,-11916.6,-1230.52,92.5334,4.7),
+(3928,'Zul\'Gurub Entrance ',61,0,0,0,NULL,309,-11916.6,-1230.52,92.5334,4.7),
 (3930,'Zul\'Gurub Exit ',0,0,0,0,NULL,0,-11916.1,-1208.37,92.2868,1.58),
 (3948,'Arathi Basin Alliance Out',0,0,0,0,NULL,0,-1198,-2533,22,0),
 (3949,'Arathi Basin Horde Out',0,0,0,0,NULL,0,-817,-3509,73,0),
@@ -143,7 +143,9 @@ INSERT INTO `areatrigger_teleport` VALUES
 (4012,'Ahn\'Qiraj Temple (Inside)',0,0,0,8801,'Instance: Temple of AhnQiraj is closed!',1,-8242.67,1992.06,129.072,0),
 (4055,'Naxxramas (Exit)',51,0,0,8801,'Instance: Naxxramas is closed!',533,3005.87,-3435.01,293.882,0),
 (4156,'Naxxramas (Entrance)',51,0,0,0,NULL,533,3498.28,-5349.9,144.968,1.31324),
-(943,'Leap of Faith - End of fall',0,0,0,0,NULL,1,-5187.47,-2804.32,-8.375,5.76);
+(943,'Leap of Faith - End of fall',0,0,0,0,NULL,1,-5187.47,-2804.32,-8.375,5.76),
+(5500,'Kara Instance (inside)',0,0,0,0,NULL,0,-11037,-2000.43,92.98,5.35),
+(5501,'kara instance',0,0,0,0,NULL,309,-11041.5,-2333.87,146.76,2.58);
 /*!40000 ALTER TABLE `areatrigger_teleport` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

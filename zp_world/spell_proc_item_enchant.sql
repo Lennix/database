@@ -39,10 +39,12 @@ INSERT INTO `spell_proc_item_enchant` VALUES
 (8034,9),
 (8680,7),
 (13218,20),
-(20005,1.6),
+(20005,1.5),
 (20004,6),
 (13897,6),
-(20007,1);
+(20007,1),
+(20006,3.5),
+(13907,6);
 /*!40000 ALTER TABLE `spell_proc_item_enchant` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

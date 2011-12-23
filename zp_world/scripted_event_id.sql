@@ -40,8 +40,8 @@ INSERT INTO `scripted_event_id` VALUES
 (8328,'npc_kroshius'),
 (8436,'event_spell_place_scryer'),
 (8502,'event_spell_awaken_the_soulflayer'),
-(2228,'event_spell_altar_boss_aggro'),
-(2268,'event_spell_altar_boss_aggro');
+(2268,'event_spell_altar_boss_aggro'),
+(2228,'event_spell_altar_boss_aggro');
 /*!40000 ALTER TABLE `scripted_event_id` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

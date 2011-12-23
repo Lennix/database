@@ -37,6 +37,12 @@ CREATE TABLE `creature_equip_template` (
 
 LOCK TABLES `creature_equip_template` WRITE;
 /*!40000 ALTER TABLE `creature_equip_template` DISABLE KEYS */;
+INSERT INTO `creature_equip_template` VALUES
+(11054,0,0,9456),
+(10997,12783,22404,0),
+(10811,0,13385,0),
+(10812,13348,0,0),
+(11911,3154,0,3111);
 /*!40000 ALTER TABLE `creature_equip_template` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
