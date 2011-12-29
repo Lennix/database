@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_testworld
+-- Host: localhost    Database: wowc_world
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -74,7 +74,7 @@ INSERT INTO `spell_bonus_data` VALUES
 (15407,0,0.152,0,0,'Priest - Mind Flay'),
 (2944,0,0.0625,0,0,'Priest - Devouring Plague'),
 (11366,1,0.1786,0,0,'Mage - Pyroblast'),
-(11426,0.1,0,0,0,'Mage - Ice Barrier');
+(11426,0.1,0,0,0,'Mage ice Barrier');
 /*!40000 ALTER TABLE `spell_bonus_data` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

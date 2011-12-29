@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_testworld
+-- Host: localhost    Database: wowc_world
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -837,8 +837,7 @@ INSERT INTO `gossip_menu` VALUES
 (11390,15863,0,0,0,0,0,0),
 (11393,15868,0,0,0,0,0,0),
 (11393,15870,0,0,0,0,0,0),
-(20011,1041,0,0,0,0,0,0),
-(10000,68,0,0,0,0,0,0);
+(20011,1041,0,0,0,0,0,0);
 /*!40000 ALTER TABLE `gossip_menu` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

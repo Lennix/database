@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_testworld
+-- Host: localhost    Database: wowc_world
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -111,7 +111,10 @@ INSERT INTO `pool_gameobject_template` VALUES
 (142141,10035,0,'Arthas\' Tears - 142141'),
 (176642,10035,0,'Arthas\' Tears - 176642'),
 (2044,10036,0,'Wintersbite - 2044'),
-(165658,10009,0,'Dark Iron - Master');
+(181248,10000,0,'Copper Vein - 181248'),
+(103713,10000,0,'Copper Vein - 103713'),
+(165658,10009,0,'Dark Iron - Master'),
+(2653,10037,0,'Lesser Bloodstone - 2653');
 /*!40000 ALTER TABLE `pool_gameobject_template` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

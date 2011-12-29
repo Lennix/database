@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_testworld
+-- Host: localhost    Database: wowc_world
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -302,7 +302,8 @@ INSERT INTO `game_tele` VALUES
 (423,3175.32,-4038.63,105.509,0.001723,0,'\"Service Gate\"'),
 (424,4333.65,-2966.09,1061.17,2.28907,1,'mthyjal'),
 (425,-7518.95,-1212.4,569.346,2.05889,0,'BlackrockTop'),
-(426,-8252.36,-226.078,268.261,2.78097,0,'TheHouse');
+(426,-8252.36,-226.078,268.261,2.78097,0,'TheHouse'),
+(427,57.3458,-825.753,-5.11181,1.21103,1,'temp1234');
 /*!40000 ALTER TABLE `game_tele` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

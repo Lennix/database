@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_testworld
+-- Host: localhost    Database: wowc_world
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -3221,7 +3221,6 @@ INSERT INTO `reference_loot_template` VALUES
 (24073,1412,0,1,1,1,0,0,0),
 (24073,2651,0,1,1,1,0,0,0),
 (24073,1423,0,1,1,1,0,0,0),
-(24073,10450,0,1,1,1,0,0,0),
 (24073,1368,0,1,1,1,0,0,0),
 (24073,2213,0,1,1,1,0,0,0),
 (24073,1413,0,1,1,1,0,0,0),

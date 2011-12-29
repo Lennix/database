@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: wowc_testworld
+-- Host: localhost    Database: wowc_world
 -- ------------------------------------------------------
 -- Server version	5.1.49-3
 
@@ -1601,32 +1601,31 @@ INSERT INTO `pool_template` VALUES
 (206,1,'9218 Spirestone Battle Lord'),
 (208,1,'9217 Spirestone Lord Magus'),
 (1601,1,'Deathsworn Captain Spawn Pool - Shadowfang Keep'),
-(10025,115,'Sungrass - Master'),
-(10024,82,'Purple Lotus - Master'),
-(10023,61,'Firebloom - Master'),
-(10022,147,'Khadgar\'s Whisker - Master'),
-(10021,253,'Goldthorn - Master'),
-(10020,84,'Fadeleaf - Master'),
-(10019,106,'Liferoot - Master'),
-(10018,34,'Grave Moss - Master'),
-(10017,162,'Kingsblood - Master'),
-(10016,168,'Wild Steelbloom - Master'),
-(10015,376,'Bruiseweed - Master'),
-(10014,154,'Briarthorn - Master'),
-(10013,191,'Mageroyal - Master'),
-(10012,146,'Earthroot - Master'),
-(10011,265,'Silverleaf - Master'),
-(10010,156,'Peacebloom - Master'),
 (10000,460,'Copper Vein - Master'),
-(10001,234,'Tin Vein - Master (3:1 Copper)'),
 (10002,262,'Silver Vein - Master'),
+(10001,234,'Tin Vein - Master (3:1 Copper)'),
 (10003,424,'Iron Vein - Master'),
 (10004,204,'Gold Vein - Master (3:1 Iron)'),
 (10005,372,'Mithril Deposit - Master'),
 (10006,172,'Truesilver Deposit - Master (3:1 Mithril)'),
 (10007,172,'Small Thorium Vein - Master'),
 (10008,79,'Rich Thorium Vein - Master'),
-(10009,50,'Dark Iron - Master'),
+(10010,156,'Peacebloom - Master'),
+(10011,265,'Silverleaf - Master'),
+(10012,146,'Earthroot - Master'),
+(10013,191,'Mageroyal - Master'),
+(10014,154,'Briarthorn - Master'),
+(10015,376,'Bruiseweed - Master'),
+(10016,168,'Wild Steelbloom - Master'),
+(10017,162,'Kingsblood - Master'),
+(10018,34,'Grave Moss - Master'),
+(10019,106,'Liferoot - Master'),
+(10020,84,'Fadeleaf - Master'),
+(10021,253,'Goldthorn - Master'),
+(10022,147,'Khadgar\'s Whisker - Master'),
+(10023,61,'Firebloom - Master'),
+(10024,82,'Purple Lotus - Master'),
+(10025,115,'Sungrass - Master'),
 (10026,57,'Blindweed - Master'),
 (10027,23,'Ghost Mushroom - Master'),
 (10028,37,'Gromsblood - Master'),
@@ -1637,7 +1636,9 @@ INSERT INTO `pool_template` VALUES
 (10033,18,'Black Lotus - Master'),
 (10034,112,'Plaguebloom - Master'),
 (10035,39,'Arthas\' Tears - Master'),
-(10036,15,'Wintersbite - Master');
+(10036,15,'Wintersbite - Master'),
+(10009,4,'Dark Iron - Master'),
+(10037,8,'Lesser Bloodstone - Master');
 /*!40000 ALTER TABLE `pool_template` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
