@@ -60,16 +60,16 @@ INSERT INTO `instance_template` VALUES
 (230,0,52,0,5,0,0,-7178.1,-928.639,'instance_blackrock_depths'),
 (249,0,60,0,40,5,1,-4753.31,-3752.42,'instance_onyxias_lair'),
 (289,0,58,0,5,0,0,1274.78,-2552.56,'instance_scholomance'),
-(309,0,60,0,20,3,0,-11916.1,-1224.58,'instance_zulgurub'),
+(309,0,61,0,20,3,0,-11916.1,-1224.58,'instance_zulgurub'),
 (329,0,58,0,5,0,0,3392.32,-3378.48,'instance_stratholme'),
 (349,0,46,55,10,0,1,-1432.7,2924.98,'instance_maraudon'),
 (389,0,13,18,10,0,1,1816.76,-4423.37,''),
 (409,0,60,0,40,7,0,-7510.56,-1036.7,'instance_molten_core'),
 (429,0,55,0,5,0,1,-3908.03,1130,'instance_dire_maul'),
 (469,0,60,0,40,7,0,-7663.41,-1218.67,'instance_blackwing_lair'),
-(509,0,60,0,20,3,1,-8114.46,1526.37,'instance_ruins_of_ahnqiraj'),
-(531,0,60,0,40,7,1,-8111.72,1526.79,'instance_temple_of_ahnqiraj'),
-(533,0,60,0,40,7,-1,0,0,'instance_naxxramas');
+(509,0,61,0,20,3,1,-8114.46,1526.37,'instance_ruins_of_ahnqiraj'),
+(531,0,61,0,40,7,1,-8111.72,1526.79,'instance_temple_of_ahnqiraj'),
+(533,0,61,0,40,7,-1,0,0,'instance_naxxramas');
 /*!40000 ALTER TABLE `instance_template` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
