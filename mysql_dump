@@ -24,11 +24,11 @@ function dump_struc ()
 #
 # ScriptDev database
 #
-dump_data wowc_world zp_scripts gossip_texts
-dump_data wowc_world zp_scripts script_texts
-dump_data wowc_world zp_scripts script_waypoint
-dump_data wowc_world zp_scripts sd0_db_version
-dump_data wowc_world zp_scripts custom_texts
+dump_data wowc_world zp_world gossip_texts
+dump_data wowc_world zp_world script_texts
+dump_data wowc_world zp_world script_waypoint
+dump_data wowc_world zp_world sd0_db_version
+dump_data wowc_world zp_world custom_texts
 
 #
 # World database
@@ -50,6 +50,8 @@ dump_data wowc_world zp_world creature_equip_template
 dump_data wowc_world zp_world creature_equip_template_raw
 dump_data wowc_world zp_world creature_involvedrelation
 dump_data wowc_world zp_world creature_loot_template
+dump_data wowc_world zp_world creature_linked_respawn
+dump_data wowc_world zp_world creature_linking_template
 dump_data wowc_world zp_world creature_model_info
 dump_data wowc_world zp_world creature_movement
 dump_data wowc_world zp_world creature_movement_scripts
