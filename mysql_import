@@ -38,9 +38,9 @@ function import ()
 #    import $x wowc_realmd
 #done
 
-for x in ./zp_scripts/*.sql; do
-    import $x wowc_scriptdev
-done
+#for x in ./zp_scripts/*.sql; do
+#    import $x wowc_scriptdev
+#done
 
 for x in ./zp_world/*.sql; do
     import $x wowc_world
