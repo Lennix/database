@@ -75,7 +75,7 @@ INSERT INTO `spell_bonus_data` VALUES
 (2944,0,0.0625,0,0,'Priest - Devouring Plague'),
 (11366,1,0.1786,0,0,'Mage - Pyroblast'),
 (11426,0.1,0,0,0,'Mage ice Barrier'),
-(133,1,0,0,0,'Mage - Fireball');
+(3140,100,0,0,0,'Mage - Fireball');
 /*!40000 ALTER TABLE `spell_bonus_data` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -38,7 +38,7 @@ LOCK TABLES `game_graveyard_zone` WRITE;
 /*!40000 ALTER TABLE `game_graveyard_zone` DISABLE KEYS */;
 INSERT INTO `game_graveyard_zone` VALUES
 (100,1,469),
-(101,1,469),
+(101,1,0),
 (103,3,67),
 (104,10,67),
 (854,1519,67),
@@ -111,7 +111,7 @@ INSERT INTO `game_graveyard_zone` VALUES
 (633,493,0),
 (635,361,0),
 (649,14,67),
-(7,1,67),
+(101,1537,67),
 (7,11,0),
 (7,38,67),
 (789,47,67),
@@ -201,7 +201,8 @@ INSERT INTO `game_graveyard_zone` VALUES
 (636,1584,0),
 (512,1637,469),
 (289,1497,0),
-(636,25,0);
+(636,25,0),
+(852,1537,469);
 /*!40000 ALTER TABLE `game_graveyard_zone` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
