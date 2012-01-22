@@ -5,8 +5,8 @@
 #
 
 # Comment these out if you need no username & password
-USER=wow
-PASS=YfTTvyCWDYzXJmh5
+USER=wowc
+PASS=uzCPXED39vzZK6hC
 HOST=localhost
 #SOCK=/var/lib/mysql/mysql.sock
 
