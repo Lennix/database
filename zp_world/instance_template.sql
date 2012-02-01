@@ -56,7 +56,7 @@ INSERT INTO `instance_template` VALUES
 (129,0,37,46,10,0,1,-4662.88,-2535.87,'instance_razorfen_downs'),
 (189,0,34,45,10,0,0,2892.24,-811.264,'instance_scarlet_monastery'),
 (209,0,44,54,10,0,1,-6790.58,-2891.28,'instance_zulfarrak'),
-(229,0,55,0,10,3,0,-7522.53,-1233.04,'instance_blackrock_spire'),
+(229,0,55,0,10,0,0,-7522.53,-1233.04,'instance_blackrock_spire'),
 (230,0,52,0,5,0,0,-7178.1,-928.639,'instance_blackrock_depths'),
 (249,0,60,0,40,5,1,-4753.31,-3752.42,'instance_onyxias_lair'),
 (289,0,58,0,5,0,0,1274.78,-2552.56,'instance_scholomance'),
