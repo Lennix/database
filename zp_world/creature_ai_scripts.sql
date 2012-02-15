@@ -8416,7 +8416,7 @@ INSERT INTO `creature_ai_scripts` VALUES
 (195401,1954,11,0,100,0,0,0,0,0,11,6867,0,1,0,0,0,0,0,0,0,0,'Lake Skulker - Cast Moss Covered Hands Proc on Spawn'),
 (525101,5251,1,0,100,0,0,0,0,0,21,0,0,0,20,0,0,0,23,1,0,0,'Woodpaw Trapper - Prevent Combat Movement and Prevent Melee and Set Phase 1 on Spawn'),
 (152801,1528,9,0,100,1,0,5,9000,15000,11,3234,1,0,0,0,0,0,0,0,0,0,'Shambling Horror - Cast Disease Touch'),
-(1210103,12101,0,0,100,3,3000,3000,3000,3000,14,-100,0,0,0,0,0,0,0,0,0,0,'Lava Surger - Reduce threat of all enemies by 100 percent'),
+(1166501,11665,0,0,100,3,3000,3000,3000,3000,14,-100,0,0,0,0,0,0,0,0,0,0,'Lava Annihilator - Reduce threat of all enemies by 100 percent'),
 (951711,9517,2,0,100,0,15,0,0,0,22,3,0,0,0,0,0,0,0,0,0,0,'Shadow Lord Fel\'dan - Set Phase 3 at 15% HP'),
 (1037304,10373,6,0,100,0,0,0,0,0,11,19127,0,7,0,0,0,0,0,0,0,0,'Xabraxxis - Summon Xabraxxis Demon Bag on Death'),
 (1287604,12876,3,5,100,2,15,0,0,0,21,1,0,0,23,1,0,0,0,0,0,0,'Baron Aquanis - Start Combat Movement and Set Phase 2 when Mana is at 15% (Phase 1)'),
