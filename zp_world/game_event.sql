@@ -31,7 +31,7 @@ CREATE TABLE `game_event` (
   `holiday` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'Client side holiday id',
   `description` varchar(255) DEFAULT NULL COMMENT 'Description of the event displayed in console',
   PRIMARY KEY (`entry`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -52,25 +52,25 @@ INSERT INTO `game_event` VALUES
 (10,'2020-05-21 22:00:00','2020-12-30 22:00:00',525600,10080,0,'Children\'s Week '),
 (11,'2020-09-23 22:00:00','2020-12-30 22:00:00',525600,10080,0,'Harvest Festival'),
 (12,'2020-10-17 22:00:00','2020-12-30 22:00:00',525600,20160,0,'Hallow\'s End'),
-(22,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'AQ War Effort'),
-(17,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'Scourge Invasion'),
 (13,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'Elemental Invasions'),
 (14,'2020-08-05 06:00:00','2020-12-30 22:00:00',10080,300,0,'Fishing Extravaganza Announce'),
-(16,'2007-08-04 20:00:00','2020-12-30 22:00:00',180,120,0,'Gurubashi Arena Booty Run'),
 (15,'2020-08-05 12:00:00','2020-12-30 22:00:00',10080,120,0,'Fishing Extravaganza'),
+(16,'2007-08-04 20:00:00','2020-12-30 22:00:00',180,120,0,'Gurubashi Arena Booty Run'),
+(17,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'Scourge Invasion'),
 (18,'2020-08-02 21:00:00','2020-12-30 22:00:00',40320,6240,0,'Call to Arms: Alterac Valley!'),
 (19,'2020-08-09 21:00:00','2020-12-30 22:00:00',40320,6240,0,'Call to Arms: Warsong Gulch!'),
 (20,'2020-08-16 21:00:00','2020-12-30 22:00:00',40320,6240,0,'Call to Arms: Arathi Basin!'),
+(22,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'AQ War Effort'),
 (23,'2007-09-01 03:00:00','2020-12-30 22:00:00',131040,4320,0,'Darkmoon Faire Building (Elwynn Forest)'),
 (24,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'Unknown Holiday PVP Event'),
 (25,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'Call to Arms: Unknown Event'),
 (26,'2020-10-02 22:00:00','2020-12-30 22:00:00',525600,20160,0,'Brewfest'),
 (27,'2020-01-01 20:00:00','2020-12-30 22:00:00',1440,720,0,'Nights'),
+(28,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,2880,0,'Noblegarden'),
 (29,'2008-01-29 00:00:00','2020-12-30 22:00:00',80640,20160,0,'Edge of Madness, Gri\'lek'),
 (30,'2008-02-12 00:00:00','2020-12-30 22:00:00',80640,20160,0,'Edge of Madness, Hazza\'rah'),
 (31,'2008-01-01 00:00:00','2020-12-30 22:00:00',80640,20160,0,'Edge of Madness, Renataki'),
-(32,'2008-01-15 00:00:00','2020-12-30 22:00:00',80640,20160,0,'Edge of Madness, Wushoolay'),
-(28,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,2880,0,'Noblegarden');
+(32,'2008-01-15 00:00:00','2020-12-30 22:00:00',80640,20160,0,'Edge of Madness, Wushoolay');
 /*!40000 ALTER TABLE `game_event` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

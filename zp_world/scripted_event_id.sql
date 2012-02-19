@@ -26,7 +26,7 @@ CREATE TABLE `scripted_event_id` (
   `id` mediumint(8) NOT NULL,
   `ScriptName` char(64) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Script library scripted events';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Script library scripted events';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,12 +36,12 @@ CREATE TABLE `scripted_event_id` (
 LOCK TABLES `scripted_event_id` WRITE;
 /*!40000 ALTER TABLE `scripted_event_id` DISABLE KEYS */;
 INSERT INTO `scripted_event_id` VALUES
+(2228,'event_spell_altar_boss_aggro'),
+(2268,'event_spell_altar_boss_aggro'),
 (4884,'event_spell_emberseer_start'),
 (8328,'npc_kroshius'),
 (8436,'event_spell_place_scryer'),
-(8502,'event_spell_awaken_the_soulflayer'),
-(2268,'event_spell_altar_boss_aggro'),
-(2228,'event_spell_altar_boss_aggro');
+(8502,'event_spell_awaken_the_soulflayer');
 /*!40000 ALTER TABLE `scripted_event_id` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

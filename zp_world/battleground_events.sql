@@ -28,7 +28,7 @@ CREATE TABLE `battleground_events` (
   `event2` tinyint(3) unsigned NOT NULL,
   `description` varchar(255) NOT NULL,
   PRIMARY KEY (`map`,`event1`,`event2`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,37 +38,6 @@ CREATE TABLE `battleground_events` (
 LOCK TABLES `battleground_events` WRITE;
 /*!40000 ALTER TABLE `battleground_events` DISABLE KEYS */;
 INSERT INTO `battleground_events` VALUES
-(489,0,0,'Alliance Flag'),
-(489,1,0,'Horde Flag'),
-(489,2,0,'Spirit Guides'),
-(489,254,0,'Doors'),
-(529,0,0,'Stables - neutral'),
-(529,0,1,'Stables - alliance contested'),
-(529,0,2,'Stables - horde contested'),
-(529,0,3,'Stables - alliance owned'),
-(529,0,4,'Stables - horde owned'),
-(529,1,0,'Blacksmith - neutral'),
-(529,1,1,'Blacksmith - alliance contested'),
-(529,1,2,'Blacksmith - horde contested'),
-(529,1,3,'Blacksmith - alliance owned'),
-(529,1,4,'Blacksmith - horde owned'),
-(529,2,0,'Farm - neutral'),
-(529,2,1,'Farm - alliance contested'),
-(529,2,2,'Farm - horde contested'),
-(529,2,3,'Farm - alliance owned'),
-(529,2,4,'Farm - horde owned'),
-(529,3,0,'Lumber Mill - neutral'),
-(529,3,1,'Lumber Mill - alliance contested'),
-(529,3,2,'Lumber Mill - horde contested'),
-(529,3,3,'Lumber Mill - alliance owned'),
-(529,3,4,'Lumber Mill - horde owned'),
-(529,4,0,'Gold Mine - neutral'),
-(529,4,1,'Gold Mine - alliance contested'),
-(529,4,2,'Gold Mine - horde contested'),
-(529,4,3,'Gold Mine - alliance owned'),
-(529,4,4,'Gold Mine - horde owned'),
-(529,254,0,'doors'),
-(30,254,0,'Doors'),
 (30,0,0,'Firstaid Station - Alliance assaulted'),
 (30,0,1,'Firstaid Station - ALliance control'),
 (30,0,2,'Firstaid Station - Horde assaulted'),
@@ -204,7 +173,38 @@ INSERT INTO `battleground_events` VALUES
 (30,61,0,'Alliance - Boss'),
 (30,62,0,'Horde - Boss'),
 (30,63,0,'Alliance - Captain Dead'),
-(30,64,0,'Horde - Captain Dead');
+(30,64,0,'Horde - Captain Dead'),
+(30,254,0,'Doors'),
+(489,0,0,'Alliance Flag'),
+(489,1,0,'Horde Flag'),
+(489,2,0,'Spirit Guides'),
+(489,254,0,'Doors'),
+(529,0,0,'Stables - neutral'),
+(529,0,1,'Stables - alliance contested'),
+(529,0,2,'Stables - horde contested'),
+(529,0,3,'Stables - alliance owned'),
+(529,0,4,'Stables - horde owned'),
+(529,1,0,'Blacksmith - neutral'),
+(529,1,1,'Blacksmith - alliance contested'),
+(529,1,2,'Blacksmith - horde contested'),
+(529,1,3,'Blacksmith - alliance owned'),
+(529,1,4,'Blacksmith - horde owned'),
+(529,2,0,'Farm - neutral'),
+(529,2,1,'Farm - alliance contested'),
+(529,2,2,'Farm - horde contested'),
+(529,2,3,'Farm - alliance owned'),
+(529,2,4,'Farm - horde owned'),
+(529,3,0,'Lumber Mill - neutral'),
+(529,3,1,'Lumber Mill - alliance contested'),
+(529,3,2,'Lumber Mill - horde contested'),
+(529,3,3,'Lumber Mill - alliance owned'),
+(529,3,4,'Lumber Mill - horde owned'),
+(529,4,0,'Gold Mine - neutral'),
+(529,4,1,'Gold Mine - alliance contested'),
+(529,4,2,'Gold Mine - horde contested'),
+(529,4,3,'Gold Mine - alliance owned'),
+(529,4,4,'Gold Mine - horde owned'),
+(529,254,0,'doors');
 /*!40000 ALTER TABLE `battleground_events` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -28,7 +28,7 @@ CREATE TABLE `creature_equip_template` (
   `equipentry2` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `equipentry3` mediumint(8) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`entry`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Creature System (Equipment)';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Creature System (Equipment)';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,10 +38,10 @@ CREATE TABLE `creature_equip_template` (
 LOCK TABLES `creature_equip_template` WRITE;
 /*!40000 ALTER TABLE `creature_equip_template` DISABLE KEYS */;
 INSERT INTO `creature_equip_template` VALUES
-(11054,0,0,9456),
-(10997,12783,22404,0),
 (10811,0,13385,0),
 (10812,13348,0,0),
+(10997,12783,22404,0),
+(11054,0,0,9456),
 (11911,3154,0,3111);
 /*!40000 ALTER TABLE `creature_equip_template` ENABLE KEYS */;
 UNLOCK TABLES;

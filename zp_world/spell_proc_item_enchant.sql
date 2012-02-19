@@ -26,7 +26,7 @@ CREATE TABLE `spell_proc_item_enchant` (
   `entry` mediumint(8) unsigned NOT NULL,
   `ppmRate` float NOT NULL DEFAULT '0',
   PRIMARY KEY (`entry`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,12 +39,12 @@ INSERT INTO `spell_proc_item_enchant` VALUES
 (8034,9),
 (8680,7),
 (13218,20),
-(20005,1.5),
-(20004,6),
 (13897,6),
-(20007,1),
+(13907,6),
+(20004,6),
+(20005,1.5),
 (20006,3.5),
-(13907,6);
+(20007,1);
 /*!40000 ALTER TABLE `spell_proc_item_enchant` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

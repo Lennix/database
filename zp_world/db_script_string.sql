@@ -34,7 +34,7 @@ CREATE TABLE `db_script_string` (
   `content_loc7` text,
   `content_loc8` text,
   PRIMARY KEY (`entry`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -58,6 +58,7 @@ INSERT INTO `db_script_string` VALUES
 (2000000020,'That\'s interesting...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000021,'I need to consult Noram and Horatio.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000026,'Whoops!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000028,'The People of Westfall salute $N, a brave and valiant defender of freedom.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000029,'Follow, $N. I will soon begin the summoning...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000030,'This makes sense!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000032,'Gird yourself $N, for the demon in this orb is a fel beast.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
@@ -244,7 +245,6 @@ INSERT INTO `db_script_string` VALUES
 (2000005229,'I don\'t get paid enough for this bull excrement!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000005233,'Just sit right back and you\'ll hear a ta... *hic* a tai... *hic* a taiii *hic* Damnit!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000005234,'I can\'t take these taxes! F.I.C.A. me? F.I.C.A. YOU!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000000028,'The People of Westfall salute $N, a brave and valiant defender of freedom.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000005235,'Time for my patrol. I\'ll be back shortly.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000005236,'People of the Horde, citizens of Orgrimmar, come, gather round and celebrate heroes of the Horde. On this day, $N, under the auspices of our glorious Warchief, laid a mortal blow against the Black Dragonflight. The brood mother, Onyxia, has been slain!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000005237,'Bear witness to the undeniable power of your Warchief! Be lifted by the rallying cry of your dragon slayers!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),

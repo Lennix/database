@@ -30,7 +30,7 @@ CREATE TABLE `spell_bonus_data` (
   `ap_dot_bonus` float NOT NULL DEFAULT '0',
   `comments` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`entry`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,42 +40,42 @@ CREATE TABLE `spell_bonus_data` (
 LOCK TABLES `spell_bonus_data` WRITE;
 /*!40000 ALTER TABLE `spell_bonus_data` DISABLE KEYS */;
 INSERT INTO `spell_bonus_data` VALUES
-(6353,1,0,0,0,'Warlock - Soul Fire'),
-(19993,0.428571,0.428571,0,0,'Paladin - Flash of Light ?'),
-(689,0,0.1,0,0,'Warlock - Drain Life'),
-(1120,0,0.1,0,0,'Warlock - Drain Soul'),
-(5857,0.0209333,0,0,0,'Warlock - Hellfire Effect Rank 1'),
-(11681,0.0209333,0,0,0,'Warlock - Hellfire Effect Rank 2'),
-(11682,0.0209333,0,0,0,'Warlock - Hellfire Effect Rank 3'),
-(339,0,0.0356667,0,0,'Druid - Entangling Roots'),
-(8921,0.2,0.15,0,0,'Druid - Moonfire'),
-(740,0,0.0666,0,0,'Druid - Tranquility'),
+(17,0.1,0,0,0,'Priest - Power Word: Shield'),
+(133,1,0,0,0,'Mage - Fireball'),
 (172,0,0.166667,0,0,'Warlock - Corruption'),
+(339,0,0.0356667,0,0,'Druid - Entangling Roots'),
+(689,0,0.1,0,0,'Warlock - Drain Life'),
+(740,0,0.0666,0,0,'Druid - Tranquility'),
 (980,0,0.166667,0,0,'Warlock - Curse of Agony'),
-(6789,0.214,0,0,0,'Warlock - Death Coil'),
-(8936,0.325,0.0714286,0,0,'Druid - Regrowth'),
-(2120,0.19,0.025,0,0,'Mage - Flamestrike'),
-(15237,0.114,0,0,0,'Priest - Holy Nova'),
+(1120,0,0.1,0,0,'Warlock - Drain Soul'),
 (2050,0.124,0,0,0,'Priest - Lesser Heal Rank 1 ?'),
 (2052,0.238,0,0,0,'Priest - Lesser Heal Rank 2 ?'),
 (2053,0.448,0,0,0,'Priest - Lesser Heal Rank 3 ?'),
-(17,0.1,0,0,0,'Priest - Power Word: Shield'),
-(10797,0,0.166667,0,0,'Priest - Starshards'),
-(7269,0.24,0,0,0,'Mage - Arcane Missiles Rank 2'),
+(2120,0.19,0.025,0,0,'Mage - Flamestrike'),
+(2944,0,0.0625,0,0,'Priest - Devouring Plague'),
+(5857,0.0209333,0,0,0,'Warlock - Hellfire Effect Rank 1'),
+(6353,1,0,0,0,'Warlock - Soul Fire'),
+(6789,0.214,0,0,0,'Warlock - Death Coil'),
 (7268,0.24,0,0,0,'Mage - Arcane Missiles Rank 1'),
-(25346,0.24,0,0,0,'Mage - Arcane Missiles Rank 8'),
-(18562,0,0,0,0,'Druid - Swiftmend (no bonus)'),
-(10274,0.24,0,0,0,'Mage - Arcane Missiles Rank 7'),
-(10273,0.24,0,0,0,'Mage - Arcane Missiles Rank 6'),
-(8419,0.24,0,0,0,'Mage - Arcane Missiles Rank 4'),
+(7269,0.24,0,0,0,'Mage - Arcane Missiles Rank 2'),
 (7270,0.24,0,0,0,'Mage - Arcane Missiles Rank 3'),
 (8418,0.24,0,0,0,'Mage - Arcane Missiles Rank 5'),
-(14914,0.75,0.06,0,0,'Priest - Holy Fire'),
-(15407,0,0.152,0,0,'Priest - Mind Flay'),
-(2944,0,0.0625,0,0,'Priest - Devouring Plague'),
+(8419,0.24,0,0,0,'Mage - Arcane Missiles Rank 4'),
+(8921,0.2,0.15,0,0,'Druid - Moonfire'),
+(8936,0.325,0.0714286,0,0,'Druid - Regrowth'),
+(10273,0.24,0,0,0,'Mage - Arcane Missiles Rank 6'),
+(10274,0.24,0,0,0,'Mage - Arcane Missiles Rank 7'),
+(10797,0,0.166667,0,0,'Priest - Starshards'),
 (11366,1,0.1786,0,0,'Mage - Pyroblast'),
 (11426,0.1,0,0,0,'Mage ice Barrier'),
-(133,1,0,0,0,'Mage - Fireball');
+(11681,0.0209333,0,0,0,'Warlock - Hellfire Effect Rank 2'),
+(11682,0.0209333,0,0,0,'Warlock - Hellfire Effect Rank 3'),
+(14914,0.75,0.06,0,0,'Priest - Holy Fire'),
+(15237,0.114,0,0,0,'Priest - Holy Nova'),
+(15407,0,0.152,0,0,'Priest - Mind Flay'),
+(18562,0,0,0,0,'Druid - Swiftmend (no bonus)'),
+(19993,0.428571,0.428571,0,0,'Paladin - Flash of Light ?'),
+(25346,0.24,0,0,0,'Mage - Arcane Missiles Rank 8');
 /*!40000 ALTER TABLE `spell_bonus_data` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

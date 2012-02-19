@@ -35,7 +35,7 @@ CREATE TABLE `gossip_texts` (
   `content_loc8` text,
   `comment` text,
   PRIMARY KEY (`entry`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Gossip Texts';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Gossip Texts';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -45,19 +45,19 @@ CREATE TABLE `gossip_texts` (
 LOCK TABLES `gossip_texts` WRITE;
 /*!40000 ALTER TABLE `gossip_texts` DISABLE KEYS */;
 INSERT INTO `gossip_texts` VALUES
-(-3000000,'default - delete later with new texts',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,''),
-(-3429000,'Tell my more about Dragon slaying.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'lyndros GOSSIP_0'),
-(-3429001,'Fascinating, Lorekeeper. Continue please.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'lyndros GOSSIP_1'),
-(-3429002,'(Continue.)',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'lyndros GOSSIP_2'),
-(-3429003,'Eh?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'lyndros GOSSIP_5'),
-(-3429004,'Maybe... What do I do now?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'lyndros GOSSIP_6'),
-(-3429005,'What happened here, spirit?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_1'),
-(-3429006,'I know very little of the Highborne and nothing of the Shen\'dralar.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_2'),
-(-3429007,'Continue, please.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_3'),
-(-3429008,'Fascinating. Continue, please.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_4'),
-(-3429009,'I\'m going to have to kill something, aren\'t I?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_5'),
+(-3429011,'A very sad tale. Thank you, spirit.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_7'),
 (-3429010,'We live in a world of endless tragedy.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_6'),
-(-3429011,'A very sad tale. Thank you, spirit.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_7');
+(-3429009,'I\'m going to have to kill something, aren\'t I?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_5'),
+(-3429008,'Fascinating. Continue, please.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_4'),
+(-3429007,'Continue, please.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_3'),
+(-3429006,'I know very little of the Highborne and nothing of the Shen\'dralar.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_2'),
+(-3429005,'What happened here, spirit?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'shendralar GOSSIP_1'),
+(-3429004,'Maybe... What do I do now?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'lyndros GOSSIP_6'),
+(-3429003,'Eh?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'lyndros GOSSIP_5'),
+(-3429002,'(Continue.)',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'lyndros GOSSIP_2'),
+(-3429001,'Fascinating, Lorekeeper. Continue please.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'lyndros GOSSIP_1'),
+(-3429000,'Tell my more about Dragon slaying.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'lyndros GOSSIP_0'),
+(-3000000,'default - delete later with new texts',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
 /*!40000 ALTER TABLE `gossip_texts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

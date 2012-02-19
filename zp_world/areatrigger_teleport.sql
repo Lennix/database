@@ -36,7 +36,7 @@ CREATE TABLE `areatrigger_teleport` (
   `target_position_z` float NOT NULL DEFAULT '0',
   `target_orientation` float NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Trigger System';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Trigger System';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -87,11 +87,13 @@ INSERT INTO `areatrigger_teleport` VALUES
 (902,'Uldaman Exit',30,0,0,0,NULL,70,-214.02,383.607,-38.7687,0.5),
 (922,'Zul\'Farrak Instance Start',0,0,0,0,NULL,1,-6796.49,-2890.77,8.88063,0),
 (924,'Zul\'Farrak Entrance',35,0,0,0,NULL,209,1213.52,841.59,8.93,6.09),
+(943,'Leap of Faith - End of fall',0,0,0,0,NULL,1,-5187.47,-2804.32,-8.375,5.76),
 (1064,'Onyxia\'s Lair - Dustwallow Instance',0,0,0,0,NULL,1,-4747.17,-3753.27,49.8122,0.713271),
 (1466,'Blackrock Mountain - Searing Gorge Instance?',40,0,0,0,NULL,230,458.32,26.52,-70.67,4.95),
 (1468,'Blackrock Spire - Searing Gorge Instance (Inside)',45,0,0,0,NULL,229,78.5083,-225.044,49.839,5.1),
 (1470,'Blackrock Spire - Searing Gorge Instance',0,0,0,0,NULL,0,-7524.19,-1230.13,285.743,0),
 (1472,'Blackrock Dephts - Searing Gorge Instance',0,0,0,0,NULL,0,-7179.63,-923.667,166.416,0),
+(2068,'BRS Fall',0,0,0,0,NULL,0,-7565.66,-1315.98,272.04,0),
 (2166,'Deeprun Tram - Ironforge Instance (Inside)',0,0,0,0,NULL,0,-4838.95,-1318.46,501.868,1.42372),
 (2171,'Deeprun Tram - Stormwind Instance (Inside)',0,0,0,0,NULL,0,-8364.57,535.981,91.7969,2.24619),
 (2173,'Deeprun Tram - Stormwind Instance',0,0,0,0,NULL,369,68.3006,2490.91,-4.29647,3.12192),
@@ -103,7 +105,6 @@ INSERT INTO `areatrigger_teleport` VALUES
 (2226,'Ragefire Chasm - Ogrimmar Instance (Inside)',0,0,0,0,NULL,1,1813.49,-4418.58,-18.57,1.78),
 (2230,'Ragefire Chasm - Ogrimmar Instance',8,0,0,0,NULL,389,3.81,-14.82,-17.84,4.39),
 (2530,'Hall of Legends - Ogrimmar (Inside)',61,0,0,0,NULL,1,1637.32,-4242.7,56.1827,4.1927),
-(2068,'BRS Fall',0,0,0,0,NULL,0,-7565.66,-1315.98,272.04,0),
 (2534,'Stormwind (Inside) - Champions Hall',61,0,0,0,NULL,0,-8762.45,403.062,103.902,5.34463),
 (2567,'Scholomance Entrance',45,0,0,0,NULL,289,196.37,127.05,134.91,6.09),
 (2568,'Scholomance Instance',0,0,0,0,NULL,0,1275.05,-2552.03,90.3994,0),
@@ -129,6 +130,7 @@ INSERT INTO `areatrigger_teleport` VALUES
 (3195,'Dire Maul',0,0,0,0,NULL,1,-3980.58,776.193,161.006,0),
 (3196,'Dire Maul',0,0,0,0,NULL,1,-4030.21,127.966,26.8109,0),
 (3197,'Dire Maul',0,0,0,0,NULL,1,-3577.67,841.859,134.594,0),
+(3528,'The Molten Core Window Entrance',50,0,0,7487,'',409,1096,-467,-104.6,3.64),
 (3529,'The Molten Core Window(Lava) Entrance',50,0,0,7487,'',409,1096,-467,-104.6,3.64),
 (3726,'Blackwing Lair - Blackrock Mountain - Eastern Kingdoms',60,0,0,8801,'Instance: Blackwing Lair is closed!',469,-7673.03,-1106.08,396.651,0.703353),
 (3728,'Blackrock Spire, Unknown',45,0,0,0,NULL,229,174.74,-474.77,116.84,3.2),
@@ -136,14 +138,12 @@ INSERT INTO `areatrigger_teleport` VALUES
 (3930,'Zul\'Gurub Exit ',0,0,0,0,NULL,0,-11916.1,-1208.37,92.2868,1.58),
 (3948,'Arathi Basin Alliance Out',0,0,0,0,NULL,0,-1198,-2533,22,0),
 (3949,'Arathi Basin Horde Out',0,0,0,0,NULL,0,-817,-3509,73,0),
-(3528,'The Molten Core Window Entrance',50,0,0,7487,'',409,1096,-467,-104.6,3.64),
 (4006,'Ruins Of Ahn\'Qiraj (Inside)',0,0,0,8801,'Instance: Ruins of AhnQiraj is closed!',1,-8418.5,1505.94,31.8232,0),
 (4008,'Ruins Of Ahn\'Qiraj (Outside)',50,0,0,8801,'Instance: Ruins of AhnQiraj is closed!',509,-8429.74,1512.14,31.9074,0),
 (4010,'Ahn\'Qiraj Temple (Outside)',50,0,0,8801,'Instance: Temple of AhnQiraj is closed!',531,-8231.33,2010.6,129.861,0),
 (4012,'Ahn\'Qiraj Temple (Inside)',0,0,0,8801,'Instance: Temple of AhnQiraj is closed!',1,-8242.67,1992.06,129.072,0),
 (4055,'Naxxramas (Exit)',51,0,0,8801,'Instance: Naxxramas is closed!',533,3005.87,-3435.01,293.882,0),
 (4156,'Naxxramas (Entrance)',51,0,0,0,NULL,533,3498.28,-5349.9,144.968,1.31324),
-(943,'Leap of Faith - End of fall',0,0,0,0,NULL,1,-5187.47,-2804.32,-8.375,5.76),
 (5500,'Kara Instance (inside)',0,0,0,0,NULL,0,-11037,-2000.43,92.98,5.35),
 (5501,'kara instance',0,0,0,0,NULL,309,-11041.5,-2333.87,146.76,2.58);
 /*!40000 ALTER TABLE `areatrigger_teleport` ENABLE KEYS */;
