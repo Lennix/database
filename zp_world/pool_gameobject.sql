@@ -1,25 +1,3 @@
--- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
---
--- Host: localhost    Database: wowc_world
--- ------------------------------------------------------
--- Server version	5.1.49-3
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `pool_gameobject`
---
-
-DROP TABLE IF EXISTS `pool_gameobject`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `pool_gameobject` (
@@ -31,13 +9,6 @@ CREATE TABLE `pool_gameobject` (
   KEY `pool_idx` (`pool_entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `pool_gameobject`
---
-
-LOCK TABLES `pool_gameobject` WRITE;
-/*!40000 ALTER TABLE `pool_gameobject` DISABLE KEYS */;
 INSERT INTO `pool_gameobject` VALUES
 (14835,1603,0,'Dire Maul pod, node 1603'),
 (14836,1604,0,'Dire Maul pod, node 1604'),
@@ -7401,16 +7372,3 @@ INSERT INTO `pool_gameobject` VALUES
 (85231,1665,0,'Dire Maul pod, node 1665'),
 (85232,1666,0,'Dire Maul pod, node 1666'),
 (85233,1667,0,'Dire Maul pod, node 1667');
-/*!40000 ALTER TABLE `pool_gameobject` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed

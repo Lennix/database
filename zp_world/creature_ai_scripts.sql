@@ -1,25 +1,3 @@
--- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
---
--- Host: localhost    Database: wowc_world
--- ------------------------------------------------------
--- Server version	5.1.49-3
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `creature_ai_scripts`
---
-
-DROP TABLE IF EXISTS `creature_ai_scripts`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `creature_ai_scripts` (
@@ -49,13 +27,6 @@ CREATE TABLE `creature_ai_scripts` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8000092 DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='EventAI Scripts';
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `creature_ai_scripts`
---
-
-LOCK TABLES `creature_ai_scripts` WRITE;
-/*!40000 ALTER TABLE `creature_ai_scripts` DISABLE KEYS */;
 INSERT INTO `creature_ai_scripts` VALUES
 (601,6,4,0,30,0,0,0,0,0,1,-7,-8,0,0,0,0,0,0,0,0,0,'Kobold Vermin - Random Say on Aggro'),
 (603,3770,1,0,100,0,0,0,0,0,11,22766,0,0,0,0,0,0,0,0,0,0,'Bleakheart Shadowstalker - Cast Sneak on Spawn'),
@@ -13080,16 +13051,3 @@ INSERT INTO `creature_ai_scripts` VALUES
 (4334170,4834,1,0,100,0,0,0,0,0,11,22766,0,0,0,0,0,0,0,0,0,0,'Theramore Infiltrator - Cast Sneak on Spawn'),
 (4334171,9025,0,0,100,3,3000,6000,10000,10000,11,6524,1,1,0,0,0,0,0,0,0,0,'Lord Roccor - Cast Ground Tremor'),
 (8000091,800009,1,0,100,0,1,1,360,360,0,0,0,0,0,0,0,0,0,0,0,0,'');
-/*!40000 ALTER TABLE `creature_ai_scripts` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed

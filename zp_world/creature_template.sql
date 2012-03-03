@@ -1,25 +1,3 @@
--- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
---
--- Host: localhost    Database: wowc_world
--- ------------------------------------------------------
--- Server version	5.1.49-3
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `creature_template`
---
-
-DROP TABLE IF EXISTS `creature_template`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `creature_template` (
@@ -96,13 +74,6 @@ CREATE TABLE `creature_template` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Creature System';
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `creature_template`
---
-
-LOCK TABLES `creature_template` WRITE;
-/*!40000 ALTER TABLE `creature_template` DISABLE KEYS */;
 INSERT INTO `creature_template` VALUES
 (1,0,0,10045,0,'Waypoint (Only GM can see it)','Visual',0,63,63,9999,9999,0,0,0,35,35,0,0.91,1.14286,0,3,7,7,0,3,1,2000,2200,0,4096,0,8,0,0,0,0,1.76,2.42,100,8,5242886,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,'',1,1,0,0,1,0,0,0,1,130,''),
 (2,0,0,262,0,'Spawn Point (Only GM can see it)',NULL,0,63,63,9999,9999,0,0,0,35,35,0,0,1.14286,0,3,11,11,0,5,1,1800,1900,0,0,0,0,0,0,0,0,387.6,532.95,100,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,222,1110,'',0,3,0,0,1,0,0,0,0,0,''),
@@ -8984,16 +8955,3 @@ INSERT INTO `creature_template` VALUES
 (800008,0,0,870,0,'Graveyard Trigger',NULL,0,62,62,1,1,0,0,0,14,14,0,1,1.14286,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,'',0,3,0,0,1,0,0,0,0,128,'1073741823'),
 (800009,0,0,870,0,'Arena Trigger',NULL,0,62,62,1,1,0,0,0,14,14,0,1,1.14286,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,'',0,3,0,0,1,0,0,0,0,0,''),
 (900000,0,0,367,0,'Dmgtester','',0,60,60,42949670,42949670,0,0,0,21,21,0,0,0,1,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,'NullAI',0,3,0,0,1,0,0,0,0,0,'');
-/*!40000 ALTER TABLE `creature_template` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed

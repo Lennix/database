@@ -1,25 +1,3 @@
--- MySQL dump 10.13  Distrib 5.1.49, for debian-linux-gnu (x86_64)
---
--- Host: localhost    Database: wowc_world
--- ------------------------------------------------------
--- Server version	5.1.49-3
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `areatrigger_teleport`
---
-
-DROP TABLE IF EXISTS `areatrigger_teleport`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `areatrigger_teleport` (
@@ -38,13 +16,6 @@ CREATE TABLE `areatrigger_teleport` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Trigger System';
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `areatrigger_teleport`
---
-
-LOCK TABLES `areatrigger_teleport` WRITE;
-/*!40000 ALTER TABLE `areatrigger_teleport` DISABLE KEYS */;
 INSERT INTO `areatrigger_teleport` VALUES
 (45,'Scarlet Monastery - Graveyard (Entrance)',20,0,0,0,NULL,189,1688.99,1053.48,18.6775,0.00117),
 (78,'DeadMines Entrance',10,0,0,0,NULL,36,-16.4,-383.07,61.78,1.86),
@@ -146,16 +117,3 @@ INSERT INTO `areatrigger_teleport` VALUES
 (4156,'Naxxramas (Entrance)',51,0,0,0,NULL,533,3498.28,-5349.9,144.968,1.31324),
 (5500,'Kara Instance (inside)',0,0,0,0,NULL,0,-11037,-2000.43,92.98,5.35),
 (5501,'kara instance',0,0,0,0,NULL,309,-11041.5,-2333.87,146.76,2.58);
-/*!40000 ALTER TABLE `areatrigger_teleport` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed
