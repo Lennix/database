@@ -14,6 +14,7 @@ CREATE TABLE `creature_template_addon` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `creature_template_addon` VALUES
+(0,0,0,0,0,0,0,NULL,150),
 (6,0,0,1,16,0,0,NULL,0),
 (30,0,0,1,16,0,0,NULL,0),
 (38,0,0,1,16,0,0,NULL,0),
@@ -1235,6 +1236,7 @@ INSERT INTO `creature_template_addon` VALUES
 (14438,0,0,0,0,0,0,NULL,0),
 (14439,0,0,0,0,0,0,NULL,0),
 (14450,0,0,1,16,0,0,NULL,0),
+(14489,0,0,0,0,0,0,NULL,0),
 (14496,0,0,1,16,0,0,NULL,0),
 (14497,0,0,1,16,0,0,NULL,0),
 (14546,0,0,1,16,0,0,NULL,0),
