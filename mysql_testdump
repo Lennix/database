@@ -159,6 +159,8 @@ dump_data wowc_testworld zp_world locales_page_text
 dump_data wowc_testworld zp_world locales_points_of_interest
 dump_data wowc_testworld zp_world locales_quest
 
+dump_data wowc_testcharacters zp_characters character_db_version
+
 dump_struc wowc_testcharacters zp_characters auction
 dump_struc wowc_testcharacters zp_characters bugreport
 dump_struc wowc_testcharacters zp_characters characters
