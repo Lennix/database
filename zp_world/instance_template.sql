@@ -15,6 +15,7 @@ CREATE TABLE `instance_template` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `instance_template` VALUES
+(30,0,60,60,80,0,0,0,0,'instance_BG_AV'),
 (33,0,20,26,10,0,0,-230.989,1571.57,'instance_shadowfang_keep'),
 (34,0,24,32,10,0,0,-8762.38,848.01,''),
 (36,0,17,26,10,0,0,-11207.8,1681.15,'instance_deadmines'),

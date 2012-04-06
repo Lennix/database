@@ -10,6 +10,8 @@ INSERT INTO `scripted_event_id` VALUES
 (2228,'event_spell_altar_boss_aggro'),
 (2268,'event_spell_altar_boss_aggro'),
 (4884,'event_spell_emberseer_start'),
+(7060,'event_spell_BG_AV_BOSS'),
+(7268,'event_spell_BG_AV_BOSS'),
 (8328,'npc_kroshius'),
 (8436,'event_spell_place_scryer'),
 (8502,'event_spell_awaken_the_soulflayer');
