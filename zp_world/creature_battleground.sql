@@ -8,6 +8,14 @@ CREATE TABLE `creature_battleground` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Creature battleground indexing system';
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `creature_battleground` VALUES
+(54293,72,0),
+(54294,71,0),
+(54295,73,0),
+(54296,74,0),
+(54297,68,0),
+(54298,67,0),
+(54299,69,0),
+(54300,70,0),
 (150000,2,0),
 (150001,2,0),
 (150002,0,3),
@@ -20,6 +28,10 @@ INSERT INTO `creature_battleground` VALUES
 (150009,3,4),
 (150010,4,3),
 (150011,4,4),
+(150102,66,0),
+(150106,76,0),
+(150107,65,0),
+(150112,75,0),
 (150142,61,0),
 (150143,62,0),
 (150144,48,0),

@@ -14,6 +14,6 @@ CREATE TABLE `battleground_template` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `battleground_template` VALUES
-(1,20,40,60,60,611,2.72532,610,2.27452),
+(1,20,40,50,60,611,2.72532,610,2.27452),
 (2,5,10,10,60,769,3.14159,770,3.14159),
-(3,8,15,61,61,890,3.40156,889,0.263892);
+(3,8,15,20,60,890,3.40156,889,0.263892);
