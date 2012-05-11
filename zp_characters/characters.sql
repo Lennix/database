@@ -58,6 +58,7 @@ CREATE TABLE `characters` (
   `actionBars` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `rates` float NOT NULL DEFAULT '3',
   `ratesmax` float NOT NULL DEFAULT '3',
+  `charType` smallint(3) unsigned NOT NULL DEFAULT '0',
   `deleteInfos_Account` int(11) unsigned DEFAULT NULL,
   `deleteInfos_Name` varchar(12) DEFAULT NULL,
   `deleteDate` bigint(20) DEFAULT NULL,
